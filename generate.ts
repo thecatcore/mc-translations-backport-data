@@ -162,6 +162,8 @@ const mcMetaManifest = JSON.parse(mcMetaString)["language"];
 
 console.log("Downloading original translation files.")
 
+await Deno.remove("./translations_info.json");
+
 const versionToAssets: Record<string, string> = {}
 
 for (const i in versionManifest["versions"]) {
@@ -253,6 +255,9 @@ for (const i in versionManifest["versions"]) {
         }
     }
 }
+
+const infoString = encoder.encode(JSON.stringify(versionToAssets));
+await Deno.writeFile("./translations_info.json", infoString, {create: true});
 
 console.log("DONE");
 
