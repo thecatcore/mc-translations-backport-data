@@ -1,0 +1,9 @@
+{
+    "removed": [
+        "arguments.nbtpath.too_deep",
+        "arguments.nbtpath.too_large"
+    ],
+    "changed": [],
+    "added": [],
+    "valueMoved": {}
+}
