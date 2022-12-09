@@ -38,6 +38,8 @@ for (const i in versionManifest["versions"]) {
     const id: string = versionManifest["versions"][i]["omniId"];
     const type: string = versionManifest["versions"][i]["type"];
 
+    if (await fs.exists(`./original/${id}.json`)) continue;
+
     if (!await fs.exists(`./jars/${id}.jar`)) {
         try {
             const versionInfo = await (await fetch(versionDetails.replace("{}", id))).json();

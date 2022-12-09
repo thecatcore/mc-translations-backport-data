@@ -27,13 +27,6 @@ jobs:
         uses: denoland/setup-deno@v1.1.1
         with:
           deno-version: v1.28.x
-        
-      - name: Cache
-        uses: actions/cache@v3.0.11
-        with:
-          # A list of files, directories, and wildcard patterns to cache and restore
-          path: ./jars
-          key: jars
 
       - name: Generate
         run: deno run --allow-net --allow-read --allow-write --allow-run ./generate.ts
