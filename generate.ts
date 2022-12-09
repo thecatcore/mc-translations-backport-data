@@ -108,7 +108,7 @@ console.log("Generating diff between lang files...")
 
 let current = versionManifest["versions"][0]["omniId"];
 
-await Deno.remove("./diff_info.json");
+// await Deno.remove("./diff_info.json");
 const versionFromVersion: Record<string, string> = {};
 
 while (current != "b1.0") {
@@ -170,7 +170,7 @@ const mcMetaManifest = JSON.parse(mcMetaString)["language"];
 
 console.log("Downloading original translation files.")
 
-await Deno.remove("./translations_info.json");
+// await Deno.remove("./translations_info.json");
 
 const versionToAssets: Record<string, string> = {}
 
