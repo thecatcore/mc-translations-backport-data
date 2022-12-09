@@ -1,0 +1,19 @@
+{
+    "removed": [
+        "tile.chestTrap.name",
+        "tile.weightedPlate_light.name",
+        "tile.weightedPlate_heavy.name",
+        "tile.blockRedstone.name",
+        "tile.daylightDetector.name",
+        "tile.netherquartz.name",
+        "tile.hopper.name",
+        "item.comparator.name",
+        "item.netherbrick.name",
+        "item.netherquartz.name",
+        "container.hopper",
+        "death.fancyItem"
+    ],
+    "changed": [],
+    "added": [],
+    "valueMoved": {}
+}

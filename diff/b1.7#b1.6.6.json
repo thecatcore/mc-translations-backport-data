@@ -1,0 +1,17 @@
+{
+    "removed": [
+        "tile.stonebricksmooth.name",
+        "tile.stonebricksmooth.desc",
+        "tile.pistonBase.name",
+        "tile.pistonBase.desc",
+        "tile.pistonStickyBase.name",
+        "tile.pistonStickyBase.desc",
+        "item.leaves.name",
+        "item.leaves.desc",
+        "item.shears.name",
+        "item.shears.desc"
+    ],
+    "changed": [],
+    "added": [],
+    "valueMoved": {}
+}

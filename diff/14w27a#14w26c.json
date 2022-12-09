@@ -1,0 +1,15 @@
+{
+    "removed": [
+        "item.muttonRaw.name",
+        "item.muttonCooked.name",
+        "item.rabbitRaw.name",
+        "item.rabbitCooked.name",
+        "item.rabbitStew.name",
+        "item.rabbitFoot.name",
+        "item.rabbitHide.name",
+        "entity.Rabbit.name"
+    ],
+    "changed": [],
+    "added": [],
+    "valueMoved": {}
+}

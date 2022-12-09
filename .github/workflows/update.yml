@@ -1,0 +1,47 @@
+# This workflow uses actions that are not certified by GitHub.
+# They are provided by a third-party and are governed by
+# separate terms of service, privacy policy, and support
+# documentation.
+
+# This workflow will install Deno then run Deno lint and test.
+# For more information see: https://github.com/denoland/setup-deno
+
+name: Update
+
+on:
+  schedule:
+    # * is a special character in YAML so you have to quote this string
+    - cron:  '0 0 * * 0'
+  push:
+    branches: [main]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Setup repo
+        uses: actions/checkout@v3.1.0
+
+      - name: Setup Deno
+        uses: denoland/setup-deno@v1.1.1
+        with:
+          deno-version: v1.28.x
+        
+      - name: Cache
+        uses: actions/cache@v3.0.11
+        with:
+          # A list of files, directories, and wildcard patterns to cache and restore
+          path: ./jars
+          key: jars
+
+      - name: Generate
+        run: deno run --allow-net --allow-read --allow-write --allow-run ./generate.ts
+        
+      - name: Commit and Push update
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
+          git add .
+          echo "Update Lang files" > .git/COMMIT_MSG
+          git commit --no-gpg-sign -F .git/COMMIT_MSG && git push || echo 'No changes'

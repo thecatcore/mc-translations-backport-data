@@ -1,0 +1,14 @@
+{
+    "removed": [
+        "gui.socialInteractions.tooltip.report.not_reportable",
+        "chat.tag.filtered",
+        "chat.filtered_full"
+    ],
+    "changed": [
+        "gui.socialInteractions.tooltip.report.disabled",
+        "gui.socialInteractions.tooltip.report.no_messages",
+        "chatPreview.warning.toast"
+    ],
+    "added": [],
+    "valueMoved": {}
+}

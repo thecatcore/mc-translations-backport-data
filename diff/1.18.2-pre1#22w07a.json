@@ -1,0 +1,16 @@
+{
+    "removed": [
+        "title.32bit.deprecation",
+        "title.32bit.deprecation.realms.header",
+        "title.32bit.deprecation.realms",
+        "title.32bit.deprecation.realms.check"
+    ],
+    "changed": [],
+    "added": [
+        "title.oldgl.eol.line1",
+        "title.oldgl.eol.line2",
+        "title.oldgl.deprecation.line1",
+        "title.oldgl.deprecation.line2"
+    ],
+    "valueMoved": {}
+}

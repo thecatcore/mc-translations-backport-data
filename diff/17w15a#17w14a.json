@@ -1,0 +1,36 @@
+{
+    "removed": [
+        "options.narrator",
+        "options.narrator.off",
+        "options.narrator.all",
+        "options.narrator.chat",
+        "options.narrator.system",
+        "narrator.toast.disabled",
+        "narrator.toast.enabled",
+        "item.bed.black.name",
+        "item.bed.red.name",
+        "item.bed.green.name",
+        "item.bed.brown.name",
+        "item.bed.blue.name",
+        "item.bed.purple.name",
+        "item.bed.cyan.name",
+        "item.bed.silver.name",
+        "item.bed.gray.name",
+        "item.bed.pink.name",
+        "item.bed.lime.name",
+        "item.bed.yellow.name",
+        "item.bed.lightBlue.name",
+        "item.bed.magenta.name",
+        "item.bed.orange.name",
+        "item.bed.white.name",
+        "subtitles.entity.imitates"
+    ],
+    "changed": [],
+    "added": [
+        "options.narrator.inactive",
+        "options.narrator.active",
+        "tile.bed.name",
+        "item.bed.name"
+    ],
+    "valueMoved": {}
+}

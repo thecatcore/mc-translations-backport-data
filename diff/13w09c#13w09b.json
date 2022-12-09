@@ -1,0 +1,9 @@
+{
+    "removed": [
+        "commands.effect.success.removed",
+        "commands.effect.failure.notActive"
+    ],
+    "changed": [],
+    "added": [],
+    "valueMoved": {}
+}

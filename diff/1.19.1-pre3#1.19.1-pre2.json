@@ -1,0 +1,19 @@
+{
+    "removed": [
+        "gui.socialInteractions.tooltip.report.no_messages",
+        "gui.socialInteractions.narration.hide",
+        "gui.socialInteractions.narration.show",
+        "gui.socialInteractions.narration.report"
+    ],
+    "changed": [
+        "gui.socialInteractions.tooltip.hide",
+        "gui.socialInteractions.tooltip.show",
+        "gui.socialInteractions.tooltip.report",
+        "gui.abuseReport.reason.terrorism_or_violent_extremism.description",
+        "gui.abuseReport.reason.harassment_or_bullying.description",
+        "gui.abuseReport.reason.imminent_harm.description",
+        "chat.tag.not_secure"
+    ],
+    "added": [],
+    "valueMoved": {}
+}

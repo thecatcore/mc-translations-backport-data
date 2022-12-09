@@ -1,0 +1,12 @@
+{
+    "removed": [
+        "commands.stopsound.usage",
+        "commands.stopsound.unknownSoundSource",
+        "commands.stopsound.success.individualSound",
+        "commands.stopsound.success.soundSource",
+        "commands.stopsound.success.all"
+    ],
+    "changed": [],
+    "added": [],
+    "valueMoved": {}
+}

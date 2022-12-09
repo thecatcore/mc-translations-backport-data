@@ -1,0 +1,9 @@
+{
+    "removed": [
+        "commands.scoreboard.players.tag.tooMany",
+        "commands.scoreboard.players.tag.notFound"
+    ],
+    "changed": [],
+    "added": [],
+    "valueMoved": {}
+}

@@ -1,0 +1,13 @@
+{
+    "removed": [
+        "options.snooper",
+        "options.snooper.view",
+        "options.snooper.title",
+        "options.snooper.desc",
+        "options.fullscreen",
+        "options.vsync"
+    ],
+    "changed": [],
+    "added": [],
+    "valueMoved": {}
+}

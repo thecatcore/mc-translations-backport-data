@@ -1,0 +1,12 @@
+{
+    "removed": [
+        "argument.angle.incomplete"
+    ],
+    "changed": [
+        "commands.spawnpoint.success.single",
+        "commands.spawnpoint.success.multiple",
+        "commands.setworldspawn.success"
+    ],
+    "added": [],
+    "valueMoved": {}
+}

@@ -1,0 +1,16 @@
+{
+    "removed": [
+        "multiplayer.applyingPack",
+        "stat.minecraft.play_time",
+        "stat.minecraft.total_world_time"
+    ],
+    "changed": [],
+    "added": [
+        "stat.minecraft.play_one_minute"
+    ],
+    "valueMoved": {
+        "stat.minecraft.play_time": [
+            "stat.minecraft.play_one_minute"
+        ]
+    }
+}

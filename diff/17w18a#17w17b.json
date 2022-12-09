@@ -1,0 +1,50 @@
+{
+    "removed": [
+        "chat.type.advancement.task",
+        "chat.type.advancement.challenge",
+        "chat.type.advancement.goal",
+        "commands.reload.usage",
+        "commands.reload.success",
+        "subtitles.entity.parrot.imitate.blaze",
+        "subtitles.entity.parrot.imitate.cave_spider",
+        "subtitles.entity.parrot.imitate.creeper",
+        "subtitles.entity.parrot.imitate.elder_guardian",
+        "subtitles.entity.parrot.imitate.enderdragon",
+        "subtitles.entity.parrot.imitate.enderman",
+        "subtitles.entity.parrot.imitate.endermite",
+        "subtitles.entity.parrot.imitate.evocation_illager",
+        "subtitles.entity.parrot.imitate.ghast",
+        "subtitles.entity.parrot.imitate.husk",
+        "subtitles.entity.parrot.imitate.illusion_illager",
+        "subtitles.entity.parrot.imitate.magmacube",
+        "subtitles.entity.parrot.imitate.polar_bear",
+        "subtitles.entity.parrot.imitate.shulker",
+        "subtitles.entity.parrot.imitate.silverfish",
+        "subtitles.entity.parrot.imitate.skeleton",
+        "subtitles.entity.parrot.imitate.slime",
+        "subtitles.entity.parrot.imitate.spider",
+        "subtitles.entity.parrot.imitate.stray",
+        "subtitles.entity.parrot.imitate.vex",
+        "subtitles.entity.parrot.imitate.vindication_illager",
+        "subtitles.entity.parrot.imitate.witch",
+        "subtitles.entity.parrot.imitate.wither",
+        "subtitles.entity.parrot.imitate.wither_skeleton",
+        "subtitles.entity.parrot.imitate.wolf",
+        "subtitles.entity.parrot.imitate.zombie",
+        "subtitles.entity.parrot.imitate.zombie_pigman",
+        "subtitles.entity.parrot.imitate.zombie_villager",
+        "advancements.adventure.breed_an_animal.title",
+        "advancements.adventure.breed_an_animal.description",
+        "advancements.adventure.breed_all_animals.title",
+        "advancements.adventure.breed_all_animals.description",
+        "advancements.adventure.tame_an_animal.title",
+        "advancements.adventure.tame_an_animal.description"
+    ],
+    "changed": [
+        "advancements.end.levitate.description"
+    ],
+    "added": [
+        "subtitles.entity.imitates"
+    ],
+    "valueMoved": {}
+}

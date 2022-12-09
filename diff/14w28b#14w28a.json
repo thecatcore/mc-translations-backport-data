@@ -1,0 +1,23 @@
+{
+    "removed": [
+        "commands.title.usage.title",
+        "commands.title.usage.clear",
+        "commands.title.usage.times"
+    ],
+    "changed": [
+        "commands.stats.block.usage",
+        "commands.clear.usage",
+        "commands.scoreboard.usage",
+        "commands.scoreboard.objectives.usage",
+        "commands.scoreboard.players.usage",
+        "commands.scoreboard.teams.usage",
+        "commands.execute.usage",
+        "commands.spawnpoint.usage",
+        "commands.setworldspawn.usage",
+        "commands.gamerule.usage",
+        "commands.worldborder.usage",
+        "commands.title.usage"
+    ],
+    "added": [],
+    "valueMoved": {}
+}

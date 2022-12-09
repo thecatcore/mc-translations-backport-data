@@ -1,0 +1,13 @@
+{
+    "removed": [
+        "argument.entity.options.predicate.description",
+        "commands.schedule.cleared.success",
+        "commands.schedule.cleared.failure",
+        "commands.data.storage.modified",
+        "commands.data.storage.query",
+        "commands.data.storage.get"
+    ],
+    "changed": [],
+    "added": [],
+    "valueMoved": {}
+}

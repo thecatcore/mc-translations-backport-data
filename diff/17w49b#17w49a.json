@@ -1,0 +1,15 @@
+{
+    "removed": [
+        "commands.function.success.single",
+        "commands.function.success.multiple"
+    ],
+    "changed": [],
+    "added": [
+        "commands.function.success"
+    ],
+    "valueMoved": {
+        "commands.function.success.single": [
+            "commands.function.success"
+        ]
+    }
+}

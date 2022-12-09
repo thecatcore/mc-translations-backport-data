@@ -1,0 +1,27 @@
+{
+    "removed": [
+        "block.minecraft.respawn_anchor",
+        "block.minecraft.spawn.not_valid",
+        "block.minecraft.set_spawn",
+        "block.minecraft.polished_basalt",
+        "subtitles.block.respawn_anchor.charge",
+        "subtitles.block.respawn_anchor.deplete",
+        "subtitles.block.respawn_anchor.set_spawn",
+        "subtitles.block.respawn_anchor.ambient"
+    ],
+    "changed": [
+        "advancements.adventure.sleep_in_bed.description",
+        "commands.spawnpoint.success.single",
+        "commands.spawnpoint.success.multiple"
+    ],
+    "added": [
+        "block.minecraft.bed.not_valid",
+        "block.minecraft.bed.set_spawn",
+        "death.fell.accident.water"
+    ],
+    "valueMoved": {
+        "block.minecraft.set_spawn": [
+            "block.minecraft.bed.set_spawn"
+        ]
+    }
+}

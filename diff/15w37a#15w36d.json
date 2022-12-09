@@ -1,0 +1,11 @@
+{
+    "removed": [
+        "deathScreen.spectate",
+        "item.shield.name"
+    ],
+    "changed": [],
+    "added": [
+        "deathScreen.hardcoreInfo"
+    ],
+    "valueMoved": {}
+}

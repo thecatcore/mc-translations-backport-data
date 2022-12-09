@@ -1,0 +1,14 @@
+{
+    "removed": [
+        "block.minecraft.nether_gold_ore",
+        "block.minecraft.twisting_vines",
+        "block.minecraft.twisting_vines_plant",
+        "death.fell.accident.twisting_vines",
+        "death.fell.accident.scaffolding",
+        "enchantment.minecraft.soul_speed",
+        "subtitles.particle.soul_escape"
+    ],
+    "changed": [],
+    "added": [],
+    "valueMoved": {}
+}

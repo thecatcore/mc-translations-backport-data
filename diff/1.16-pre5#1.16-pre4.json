@@ -1,0 +1,20 @@
+{
+    "removed": [
+        "options.graphics.warning.title",
+        "options.graphics.warning.message",
+        "options.graphics.warning.renderer",
+        "options.graphics.warning.vendor",
+        "options.graphics.warning.version",
+        "options.graphics.warning.accept",
+        "options.graphics.warning.cancel"
+    ],
+    "changed": [
+        "options.graphics.fabulous.tooltip",
+        "options.graphics.fancy.tooltip",
+        "options.graphics.fast.tooltip",
+        "gamerule.doMobLoot.description",
+        "gamerule.doTileDrops.description"
+    ],
+    "added": [],
+    "valueMoved": {}
+}

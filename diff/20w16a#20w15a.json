@@ -1,0 +1,12 @@
+{
+    "removed": [
+        "block.minecraft.chain",
+        "item.minecraft.music_disc_pigstep",
+        "item.minecraft.music_disc_pigstep.desc",
+        "jigsaw_block.levels",
+        "jigsaw_block.generate"
+    ],
+    "changed": [],
+    "added": [],
+    "valueMoved": {}
+}

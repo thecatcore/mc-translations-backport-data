@@ -1,0 +1,43 @@
+{
+    "removed": [
+        "options.blockAlternatives",
+        "entity.KillerBunny.name",
+        "commands.stats.usage",
+        "commands.stats.entity.usage",
+        "commands.stats.entity.set.usage",
+        "commands.stats.entity.clear.usage",
+        "commands.stats.block.usage",
+        "commands.stats.block.set.usage",
+        "commands.stats.block.clear.usage",
+        "commands.stats.noCompatibleBlock",
+        "commands.stats.failed",
+        "commands.stats.cleared",
+        "commands.stats.success"
+    ],
+    "changed": [
+        "commands.tp.success.coordinates"
+    ],
+    "added": [
+        "options.aoDesc0",
+        "options.aoDesc1",
+        "options.framerateLimitDesc0",
+        "options.framerateLimitDesc1",
+        "options.viewBobbingDesc0",
+        "options.viewBobbingDesc1",
+        "options.renderCloudsDesc0",
+        "options.renderCloudsDesc1",
+        "options.graphicsDesc0",
+        "options.graphicsDesc1",
+        "options.renderDistanceDesc0",
+        "options.renderDistanceDesc1",
+        "options.particlesDesc0",
+        "options.particlesDesc1",
+        "options.advancedOpenglDesc0",
+        "options.advancedOpenglDesc1",
+        "options.fboEnableDesc0",
+        "options.fboEnableDesc1",
+        "options.postProcessEnableDesc0",
+        "options.postProcessEnableDesc1"
+    ],
+    "valueMoved": {}
+}

@@ -1,0 +1,10 @@
+{
+    "removed": [
+        "container.stonecutter"
+    ],
+    "changed": [],
+    "added": [
+        "optimizeWorld.stage.structures"
+    ],
+    "valueMoved": {}
+}

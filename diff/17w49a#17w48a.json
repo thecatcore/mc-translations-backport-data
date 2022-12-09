@@ -1,0 +1,15 @@
+{
+    "removed": [
+        "block.minecraft.player_head.named"
+    ],
+    "changed": [],
+    "added": [
+        "item.minecraft.player_head",
+        "item.minecraft.player_head.named"
+    ],
+    "valueMoved": {
+        "block.minecraft.player_head.named": [
+            "item.minecraft.player_head.named"
+        ]
+    }
+}

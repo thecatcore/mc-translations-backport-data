@@ -1,0 +1,12 @@
+{
+    "removed": [
+        "selectServer.hiddenAddress",
+        "addServer.hideAddress",
+        "container.repair.cost",
+        "item.dyed",
+        "death.fallingBlock"
+    ],
+    "changed": [],
+    "added": [],
+    "valueMoved": {}
+}

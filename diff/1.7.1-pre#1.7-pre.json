@@ -1,0 +1,19 @@
+{
+    "removed": [
+        "item.record.13.desc",
+        "item.record.cat.desc",
+        "item.record.blocks.desc",
+        "item.record.chirp.desc",
+        "item.record.far.desc",
+        "item.record.mall.desc",
+        "item.record.mellohi.desc",
+        "item.record.stal.desc",
+        "item.record.strad.desc",
+        "item.record.ward.desc",
+        "item.record.11.desc",
+        "item.record.wait.desc"
+    ],
+    "changed": [],
+    "added": [],
+    "valueMoved": {}
+}

@@ -1,0 +1,21 @@
+{
+    "removed": [
+        "options.prioritizeChunkUpdates.none.tooltip",
+        "options.prioritizeChunkUpdates.byPlayer.tooltip",
+        "options.prioritizeChunkUpdates.nearby.tooltip"
+    ],
+    "changed": [
+        "options.prioritizeChunkUpdates",
+        "options.prioritizeChunkUpdates.none",
+        "options.prioritizeChunkUpdates.byPlayer",
+        "options.prioritizeChunkUpdates.nearby"
+    ],
+    "added": [
+        "options.snooper",
+        "options.snooper.view",
+        "options.snooper.title",
+        "options.snooper.desc",
+        "biome.minecraft.deep_warm_ocean"
+    ],
+    "valueMoved": {}
+}

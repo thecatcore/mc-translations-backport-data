@@ -1,0 +1,26 @@
+{
+    "removed": [
+        "stat.timeSinceDeath",
+        "stat.crouchOneCm",
+        "stat.sprintOneCm",
+        "commands.fill.failed",
+        "commands.clone.failed",
+        "commands.op.failed",
+        "commands.deop.failed",
+        "commands.ban.failed",
+        "commands.unban.failed",
+        "commands.whitelist.add.failed",
+        "commands.whitelist.remove.failed",
+        "commands.scoreboard.players.set.tagMismatch",
+        "commands.scoreboard.players.set.tagError",
+        "stream.confirm_start"
+    ],
+    "changed": [
+        "commands.scoreboard.players.set.usage",
+        "commands.scoreboard.players.add.usage",
+        "commands.scoreboard.players.remove.usage",
+        "commands.scoreboard.teams.option.usage"
+    ],
+    "added": [],
+    "valueMoved": {}
+}

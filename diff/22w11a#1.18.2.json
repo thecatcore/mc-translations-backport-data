@@ -1,0 +1,148 @@
+{
+    "removed": [
+        "flat_world_preset.unknown",
+        "flat_world_preset.minecraft.classic_flat",
+        "flat_world_preset.minecraft.tunnelers_dream",
+        "flat_world_preset.minecraft.water_world",
+        "flat_world_preset.minecraft.overworld",
+        "flat_world_preset.minecraft.snowy_kingdom",
+        "flat_world_preset.minecraft.bottomless_pit",
+        "flat_world_preset.minecraft.desert",
+        "flat_world_preset.minecraft.redstone_ready",
+        "flat_world_preset.minecraft.the_void",
+        "generator.minecraft.normal",
+        "generator.minecraft.flat",
+        "generator.minecraft.large_biomes",
+        "generator.minecraft.amplified",
+        "generator.minecraft.amplified.info",
+        "generator.minecraft.debug_all_block_states",
+        "generator.minecraft.single_biome_surface",
+        "options.directionalAudio",
+        "options.directionalAudio.on.tooltip",
+        "options.directionalAudio.off.tooltip",
+        "block.minecraft.mangrove_planks",
+        "block.minecraft.mangrove_propagule",
+        "block.minecraft.mangrove_door",
+        "block.minecraft.mangrove_wood",
+        "block.minecraft.mangrove_log",
+        "block.minecraft.mangrove_roots",
+        "block.minecraft.muddy_mangrove_roots",
+        "block.minecraft.stripped_mangrove_log",
+        "block.minecraft.stripped_mangrove_wood",
+        "block.minecraft.mangrove_leaves",
+        "block.minecraft.mud_brick_slab",
+        "block.minecraft.mangrove_slab",
+        "block.minecraft.mangrove_stairs",
+        "block.minecraft.mangrove_sign",
+        "block.minecraft.mangrove_wall_sign",
+        "block.minecraft.mangrove_pressure_plate",
+        "block.minecraft.mangrove_button",
+        "block.minecraft.mangrove_fence",
+        "block.minecraft.mangrove_fence_gate",
+        "block.minecraft.mangrove_trapdoor",
+        "block.minecraft.packed_mud",
+        "block.minecraft.mud_bricks",
+        "block.minecraft.mud_brick_stairs",
+        "block.minecraft.potted_mangrove_propagule",
+        "block.minecraft.mud_brick_wall",
+        "block.minecraft.mud",
+        "block.minecraft.sculk",
+        "block.minecraft.sculk_catalyst",
+        "block.minecraft.sculk_shrieker",
+        "block.minecraft.sculk_vein",
+        "block.minecraft.ochre_froglight",
+        "block.minecraft.verdant_froglight",
+        "block.minecraft.pearlescent_froglight",
+        "block.minecraft.frogspawn",
+        "item.minecraft.tadpole_bucket",
+        "item.minecraft.mangrove_boat",
+        "item.minecraft.frog_spawn_egg",
+        "item.minecraft.tadpole_spawn_egg",
+        "entity.minecraft.frog",
+        "entity.minecraft.tadpole",
+        "subtitles.block.frogspawn.hatch",
+        "subtitles.entity.frog.ambient",
+        "subtitles.entity.frog.death",
+        "subtitles.entity.frog.eat",
+        "subtitles.entity.frog.hurt",
+        "subtitles.entity.frog.lay_spawn",
+        "subtitles.entity.frog.long_jump",
+        "subtitles.entity.tadpole.death",
+        "subtitles.entity.tadpole.flop",
+        "subtitles.entity.tadpole.hurt",
+        "biome.minecraft.deep_dark",
+        "outOfMemory.title",
+        "outOfMemory.message"
+    ],
+    "changed": [
+        "narration.recipe"
+    ],
+    "added": [
+        "createWorld.customize.preset.classic_flat",
+        "createWorld.customize.preset.tunnelers_dream",
+        "createWorld.customize.preset.water_world",
+        "createWorld.customize.preset.overworld",
+        "createWorld.customize.preset.snowy_kingdom",
+        "createWorld.customize.preset.bottomless_pit",
+        "createWorld.customize.preset.desert",
+        "createWorld.customize.preset.redstone_ready",
+        "createWorld.customize.preset.the_void",
+        "generator.default",
+        "generator.flat",
+        "generator.large_biomes",
+        "generator.amplified",
+        "generator.debug_all_block_states",
+        "generator.amplified.info",
+        "generator.single_biome_surface"
+    ],
+    "valueMoved": {
+        "flat_world_preset.minecraft.classic_flat": [
+            "createWorld.customize.preset.classic_flat"
+        ],
+        "flat_world_preset.minecraft.tunnelers_dream": [
+            "createWorld.customize.preset.tunnelers_dream"
+        ],
+        "flat_world_preset.minecraft.water_world": [
+            "createWorld.customize.preset.water_world"
+        ],
+        "flat_world_preset.minecraft.overworld": [
+            "createWorld.customize.preset.overworld"
+        ],
+        "flat_world_preset.minecraft.snowy_kingdom": [
+            "createWorld.customize.preset.snowy_kingdom"
+        ],
+        "flat_world_preset.minecraft.bottomless_pit": [
+            "createWorld.customize.preset.bottomless_pit"
+        ],
+        "flat_world_preset.minecraft.desert": [
+            "createWorld.customize.preset.desert"
+        ],
+        "flat_world_preset.minecraft.redstone_ready": [
+            "createWorld.customize.preset.redstone_ready"
+        ],
+        "flat_world_preset.minecraft.the_void": [
+            "createWorld.customize.preset.the_void"
+        ],
+        "generator.minecraft.normal": [
+            "generator.default"
+        ],
+        "generator.minecraft.flat": [
+            "generator.flat"
+        ],
+        "generator.minecraft.large_biomes": [
+            "generator.large_biomes"
+        ],
+        "generator.minecraft.amplified": [
+            "generator.amplified"
+        ],
+        "generator.minecraft.amplified.info": [
+            "generator.amplified.info"
+        ],
+        "generator.minecraft.debug_all_block_states": [
+            "generator.debug_all_block_states"
+        ],
+        "generator.minecraft.single_biome_surface": [
+            "generator.single_biome_surface"
+        ]
+    }
+}

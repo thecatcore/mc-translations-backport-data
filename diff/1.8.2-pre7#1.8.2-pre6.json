@@ -1,0 +1,10 @@
+{
+    "removed": [
+        "gui.toTitle"
+    ],
+    "changed": [
+        "gui.toMenu"
+    ],
+    "added": [],
+    "valueMoved": {}
+}

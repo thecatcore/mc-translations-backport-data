@@ -1,0 +1,11 @@
+{
+    "removed": [
+        "mco.configure.world.buttons.backup",
+        "mco.backup.title",
+        "mco.backup.button.restore",
+        "mco.backup.restoring"
+    ],
+    "changed": [],
+    "added": [],
+    "valueMoved": {}
+}

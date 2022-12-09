@@ -1,0 +1,35 @@
+{
+    "removed": [
+        "block.minecraft.spawner.desc1",
+        "block.minecraft.spawner.desc2",
+        "item.minecraft.ender_dragon_spawn_egg",
+        "item.minecraft.iron_golem_spawn_egg",
+        "item.minecraft.snow_golem_spawn_egg",
+        "item.minecraft.wither_spawn_egg",
+        "gamerule.blockExplosionDropDecay",
+        "gamerule.blockExplosionDropDecay.description",
+        "gamerule.mobExplosionDropDecay",
+        "gamerule.mobExplosionDropDecay.description",
+        "gamerule.tntExplosionDropDecay",
+        "gamerule.tntExplosionDropDecay.description",
+        "gamerule.snowAccumulationHeight",
+        "gamerule.snowAccumulationHeight.description",
+        "gamerule.waterSourceConversion",
+        "gamerule.waterSourceConversion.description",
+        "gamerule.lavaSourceConversion",
+        "gamerule.lavaSourceConversion.description",
+        "gamerule.globalSoundEvents",
+        "gamerule.globalSoundEvents.description",
+        "mco.selectServer.configureRealm"
+    ],
+    "changed": [
+        "selectWorld.backupEraseCache",
+        "block.minecraft.spawner",
+        "structure_block.mode_info.load",
+        "structure_block.mode_info.data",
+        "entity.minecraft.spawner_minecart",
+        "mco.selectServer.configure"
+    ],
+    "added": [],
+    "valueMoved": {}
+}

@@ -1,0 +1,11 @@
+{
+    "removed": [
+        "entity.Witch.name",
+        "entity.Bat.name"
+    ],
+    "changed": [
+        "commands.clear.usage"
+    ],
+    "added": [],
+    "valueMoved": {}
+}

@@ -1,0 +1,18 @@
+{
+    "removed": [
+        "gui.narrate.editBox",
+        "selectWorld.search",
+        "chat.editBox",
+        "structure_block.position.x",
+        "structure_block.position.y",
+        "structure_block.position.z",
+        "structure_block.size.x",
+        "structure_block.size.y",
+        "structure_block.size.z",
+        "structure_block.integrity.integrity",
+        "structure_block.integrity.seed"
+    ],
+    "changed": [],
+    "added": [],
+    "valueMoved": {}
+}

@@ -1,0 +1,12 @@
+{
+    "removed": [
+        "item.doorSpruce.name",
+        "item.doorBirch.name",
+        "item.doorJungle.name",
+        "item.doorAcacia.name",
+        "item.doorDarkOak.name"
+    ],
+    "changed": [],
+    "added": [],
+    "valueMoved": {}
+}

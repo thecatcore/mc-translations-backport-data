@@ -1,0 +1,10 @@
+{
+    "removed": [
+        "commands.function.skipped"
+    ],
+    "changed": [
+        "commands.function.usage"
+    ],
+    "added": [],
+    "valueMoved": {}
+}

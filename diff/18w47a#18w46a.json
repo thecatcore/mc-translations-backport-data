@@ -1,0 +1,12 @@
+{
+    "removed": [
+        "effect.minecraft.bad_omen",
+        "event.minecraft.raid",
+        "event.minecraft.raid.mobs_remaining",
+        "subtitles.event.raid.horn_local",
+        "subtitles.event.raid.horn_distant"
+    ],
+    "changed": [],
+    "added": [],
+    "valueMoved": {}
+}

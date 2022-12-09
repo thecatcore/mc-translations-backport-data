@@ -1,0 +1,16 @@
+{
+    "removed": [
+        "$o",
+        "tile.stainedGlass.name",
+        "tile.thinStainedGlass.name"
+    ],
+    "changed": [],
+    "added": [
+        "menu.playdemo"
+    ],
+    "valueMoved": {
+        "$o": [
+            "menu.playdemo"
+        ]
+    }
+}

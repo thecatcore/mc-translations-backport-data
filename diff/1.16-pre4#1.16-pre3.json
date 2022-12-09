@@ -1,0 +1,12 @@
+{
+    "removed": [
+        "commands.datapack.modify.enable",
+        "commands.datapack.modify.disable"
+    ],
+    "changed": [],
+    "added": [
+        "commands.datapack.enable.success",
+        "commands.datapack.disable.success"
+    ],
+    "valueMoved": {}
+}

@@ -1,0 +1,9 @@
+{
+    "removed": [
+        "narration.suggestion.tooltip",
+        "narration.suggestion"
+    ],
+    "changed": [],
+    "added": [],
+    "valueMoved": {}
+}

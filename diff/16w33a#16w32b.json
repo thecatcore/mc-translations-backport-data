@@ -1,0 +1,24 @@
+{
+    "removed": [
+        "tile.bed.tooFarAway",
+        "subtitles.entity.elder_guardian.ambient.land",
+        "subtitles.entity.elder_guardian.ambient",
+        "subtitles.entity.elder_guardian.attack",
+        "subtitles.entity.elder_guardian.curse",
+        "subtitles.entity.elder_guardian.death",
+        "subtitles.entity.elder_guardian.flop",
+        "subtitles.entity.elder_guardian.hurt",
+        "subtitles.entity.zombie_villager.ambient",
+        "subtitles.entity.zombie_villager.death",
+        "subtitles.entity.zombie_villager.hurt"
+    ],
+    "changed": [
+        "debug.cycle_renderdistance.help",
+        "debug.reload_resourcepacks.help",
+        "debug.cycle_renderdistance.message",
+        "debug.help.message",
+        "debug.reload_resourcepacks.message"
+    ],
+    "added": [],
+    "valueMoved": {}
+}

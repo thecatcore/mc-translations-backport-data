@@ -1,0 +1,13 @@
+{
+    "removed": [
+        "predicate.unknown"
+    ],
+    "changed": [],
+    "added": [
+        "subtitles.entity.parrot.imitate.panda",
+        "subtitles.entity.parrot.imitate.polar_bear",
+        "subtitles.entity.parrot.imitate.wolf",
+        "subtitles.entity.parrot.imitate.zombie_pigman"
+    ],
+    "valueMoved": {}
+}

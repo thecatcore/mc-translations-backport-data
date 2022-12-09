@@ -1,0 +1,23 @@
+{
+    "removed": [
+        "block.minecraft.reinforced_deepslate",
+        "item.minecraft.allay_spawn_egg",
+        "entity.minecraft.allay",
+        "subtitles.entity.allay.death",
+        "subtitles.entity.allay.hurt",
+        "subtitles.entity.allay.ambient_with_item",
+        "subtitles.entity.allay.ambient_without_item",
+        "subtitles.entity.allay.item_given",
+        "subtitles.entity.allay.item_taken",
+        "subtitles.entity.allay.throw",
+        "advancements.adventure.kill_mob_near_sculk_catalyst.title",
+        "advancements.adventure.kill_mob_near_sculk_catalyst.description",
+        "advancements.husbandry.froglights.title",
+        "advancements.husbandry.froglights.description",
+        "advancements.husbandry.tadpole_in_a_bucket.title",
+        "advancements.husbandry.tadpole_in_a_bucket.description"
+    ],
+    "changed": [],
+    "added": [],
+    "valueMoved": {}
+}

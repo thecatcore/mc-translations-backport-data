@@ -1,0 +1,23 @@
+{
+    "removed": [
+        "tile.netherBrick.name",
+        "tile.netherBrick.desc",
+        "tile.netherFence.name",
+        "tile.netherFence.desc",
+        "tile.stairsNetherBrick.name",
+        "tile.stairsNetherBrick.desc",
+        "tile.netherStalk.name",
+        "tile.netherStalk.desc",
+        "item.blazeRod.name",
+        "item.blazeRod.desc",
+        "item.ghastTear.name",
+        "item.ghastTear.desc",
+        "item.netherStalkSeeds.name",
+        "item.netherStalkSeeds.desc",
+        "entity.Blaze.name",
+        "entity.LavaSlime.name"
+    ],
+    "changed": [],
+    "added": [],
+    "valueMoved": {}
+}

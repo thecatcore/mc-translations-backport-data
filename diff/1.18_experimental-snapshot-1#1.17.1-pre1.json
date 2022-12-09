@@ -1,0 +1,18 @@
+{
+    "removed": [
+        "selectWorld.incompatible_series",
+        "commands.jfr.started",
+        "commands.jfr.start.failed",
+        "commands.jfr.stopped",
+        "commands.jfr.dump.failed",
+        "commands.jfr.notRunning",
+        "commands.jfr.dumped"
+    ],
+    "changed": [
+        "selectWorld.pre_worldheight"
+    ],
+    "added": [
+        "generator.amplified.info"
+    ],
+    "valueMoved": {}
+}

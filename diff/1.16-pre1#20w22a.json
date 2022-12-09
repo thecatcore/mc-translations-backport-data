@@ -1,0 +1,69 @@
+{
+    "removed": [
+        "selectWorld.dataPacks",
+        "options.graphics.fabulous.tooltip",
+        "options.graphics.fabulous",
+        "options.graphics.fancy.tooltip",
+        "options.graphics.fast.tooltip",
+        "pack.available.title",
+        "pack.selected.title",
+        "pack.incompatible",
+        "pack.incompatible.old",
+        "pack.incompatible.new",
+        "pack.incompatible.confirm.title",
+        "pack.incompatible.confirm.old",
+        "pack.incompatible.confirm.new",
+        "pack.dropInfo",
+        "pack.dropConfirm",
+        "pack.copyFailure",
+        "pack.nameAndSource",
+        "pack.openFolder",
+        "pack.folderInfo",
+        "dataPack.title",
+        "dataPack.validation.working",
+        "dataPack.validation.failed",
+        "dataPack.validation.back",
+        "dataPack.validation.reset",
+        "gamerule.forgiveDeadPlayers",
+        "gamerule.forgiveDeadPlayers.description",
+        "gamerule.universalAnger",
+        "gamerule.universalAnger.description",
+        "pack.source.builtin",
+        "pack.source.world",
+        "pack.source.local",
+        "pack.source.server"
+    ],
+    "changed": [
+        "subtitles.item.axe.strip",
+        "debug.gamemodes.press_f4",
+        "debug.gamemodes.select_next",
+        "advancements.nether.obtain_crying_obsidian.title",
+        "commands.locatebiome.notFound",
+        "commands.locatebiome.invalid"
+    ],
+    "added": [
+        "selectWorld.tooltip.unsupported",
+        "selectWorld.tooltip.experimental",
+        "resourcePack.openFolder",
+        "resourcePack.available.title",
+        "resourcePack.selected.title",
+        "resourcePack.folderInfo",
+        "resourcePack.incompatible",
+        "resourcePack.incompatible.old",
+        "resourcePack.incompatible.new",
+        "resourcePack.incompatible.confirm.title",
+        "resourcePack.incompatible.confirm.old",
+        "resourcePack.incompatible.confirm.new"
+    ],
+    "valueMoved": {
+        "pack.incompatible": [
+            "resourcePack.incompatible"
+        ],
+        "pack.incompatible.old": [
+            "resourcePack.incompatible.old"
+        ],
+        "pack.incompatible.new": [
+            "resourcePack.incompatible.new"
+        ]
+    }
+}

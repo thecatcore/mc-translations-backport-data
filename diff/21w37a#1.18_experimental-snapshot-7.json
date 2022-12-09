@@ -1,0 +1,32 @@
+{
+    "removed": [
+        "selectWorld.conversion.tooltip",
+        "options.prioritizeChunkUpdates",
+        "options.prioritizeChunkUpdates.none",
+        "options.prioritizeChunkUpdates.byPlayer",
+        "options.prioritizeChunkUpdates.nearby",
+        "options.audioDevice",
+        "options.audioDevice.default",
+        "options.hideLightningFlashes",
+        "options.hideLightningFlashes.tooltip",
+        "controls.keybinds",
+        "controls.keybinds.title",
+        "death.attack.dryout",
+        "death.attack.dryout.player",
+        "subtitles.item.bundle.drop_contents",
+        "subtitles.item.bundle.insert",
+        "subtitles.item.bundle.remove_one",
+        "biome.minecraft.mountains",
+        "biome.minecraft.gravelly_mountains"
+    ],
+    "changed": [],
+    "added": [
+        "commands.jfr.notRunning",
+        "commands.jfr.dumped",
+        "commands.scoreboard.objectives.add.longName",
+        "commands.team.add.longName",
+        "biome.minecraft.extreme_hills",
+        "biome.minecraft.gravelly_hills"
+    ],
+    "valueMoved": {}
+}

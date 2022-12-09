@@ -1,0 +1,25 @@
+{
+    "removed": [
+        "disconnect.unknownHost"
+    ],
+    "changed": [
+        "block.minecraft.white_candle_cake",
+        "block.minecraft.orange_candle_cake",
+        "block.minecraft.magenta_candle_cake",
+        "block.minecraft.light_blue_candle_cake",
+        "block.minecraft.yellow_candle_cake",
+        "block.minecraft.lime_candle_cake",
+        "block.minecraft.pink_candle_cake",
+        "block.minecraft.gray_candle_cake",
+        "block.minecraft.light_gray_candle_cake",
+        "block.minecraft.cyan_candle_cake",
+        "block.minecraft.purple_candle_cake",
+        "block.minecraft.blue_candle_cake",
+        "block.minecraft.brown_candle_cake",
+        "block.minecraft.green_candle_cake",
+        "block.minecraft.red_candle_cake",
+        "block.minecraft.black_candle_cake"
+    ],
+    "added": [],
+    "valueMoved": {}
+}

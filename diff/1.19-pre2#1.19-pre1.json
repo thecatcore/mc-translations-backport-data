@@ -1,0 +1,11 @@
+{
+    "removed": [
+        "death.attack.onFire.item",
+        "death.attack.witherSkull.item",
+        "death.attack.sonic_boom.item",
+        "death.attack.sting.item"
+    ],
+    "changed": [],
+    "added": [],
+    "valueMoved": {}
+}

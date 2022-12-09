@@ -1,0 +1,21 @@
+{
+    "removed": [
+        "tile.redSandStone.name",
+        "tile.redSandStone.default.name",
+        "tile.redSandStone.chiseled.name",
+        "tile.redSandStone.smooth.name",
+        "tile.stoneSlab2.red_sandstone.name",
+        "tile.stairsRedSandStone.name",
+        "item.armorStand.name",
+        "entity.ArmorStand.name",
+        "death.attack.lightningBolt"
+    ],
+    "changed": [
+        "selectWorld.gameMode.spectator.line1",
+        "selectWorld.gameMode.spectator.line2",
+        "tile.stoneSlab.sand.name",
+        "achievement.overkill.desc"
+    ],
+    "added": [],
+    "valueMoved": {}
+}

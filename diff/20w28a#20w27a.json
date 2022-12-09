@@ -1,0 +1,29 @@
+{
+    "removed": [
+        "chat.square_brackets",
+        "disconnect.exceeded_packet_rate",
+        "options.off.composed",
+        "options.on.composed",
+        "options.generic_value",
+        "options.pixel_value",
+        "options.percent_value",
+        "options.percent_add_value",
+        "potion.withAmplifier",
+        "potion.withDuration",
+        "command.context.parse_error",
+        "commands.list.nameAndId"
+    ],
+    "changed": [
+        "selectWorld.mapFeatures",
+        "selectWorld.allowCommands",
+        "selectWorld.bonusItems",
+        "jigsaw_block.keep_jigsaws",
+        "gamerule.doDaylightCycle"
+    ],
+    "added": [
+        "selectWorld.hardcoreMode",
+        "selectWorld.hardcoreMode.info",
+        "options.entityDistancePercent"
+    ],
+    "valueMoved": {}
+}

@@ -1,0 +1,23 @@
+{
+    "removed": [
+        "commands.generic.boolean.invalid",
+        "commands.spreadplayers.usage",
+        "commands.spreadplayers.spreading.teams",
+        "commands.spreadplayers.spreading.players",
+        "commands.spreadplayers.success.teams",
+        "commands.spreadplayers.success.players",
+        "commands.spreadplayers.info.teams",
+        "commands.spreadplayers.info.players",
+        "commands.spreadplayers.failure.teams",
+        "commands.spreadplayers.failure.players",
+        "mco.configure.world.status",
+        "mco.create.world.seed",
+        "mco.template.title",
+        "mco.template.button.select",
+        "mco.template.default.name",
+        "mco.template.name"
+    ],
+    "changed": [],
+    "added": [],
+    "valueMoved": {}
+}

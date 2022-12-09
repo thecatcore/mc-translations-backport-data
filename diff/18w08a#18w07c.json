@@ -1,0 +1,12 @@
+{
+    "removed": [
+        "chat.coordinates",
+        "chat.coordinates.tooltip",
+        "subtitles.entity.squid.squirt"
+    ],
+    "changed": [
+        "commands.locate.success"
+    ],
+    "added": [],
+    "valueMoved": {}
+}

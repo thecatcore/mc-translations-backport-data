@@ -1,0 +1,11 @@
+{
+    "removed": [
+        "death.thorns",
+        "enchantment.thorns"
+    ],
+    "changed": [
+        "tile.stoneSlab.netherBrick.name"
+    ],
+    "added": [],
+    "valueMoved": {}
+}

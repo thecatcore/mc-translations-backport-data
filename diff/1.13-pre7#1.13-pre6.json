@@ -1,0 +1,18 @@
+{
+    "removed": [
+        "stat.minecraft.walk_under_water_one_cm",
+        "stat.minecraft.walk_on_water_one_cm",
+        "debug.inspect.server.block",
+        "debug.inspect.server.entity",
+        "debug.inspect.client.block",
+        "debug.inspect.client.entity",
+        "commands.scoreboard.objectives.modify.displayname"
+    ],
+    "changed": [],
+    "added": [
+        "stat.minecraft.dive_one_cm",
+        "debug.inspect.block",
+        "debug.inspect.entity"
+    ],
+    "valueMoved": {}
+}

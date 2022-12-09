@@ -1,0 +1,61 @@
+{
+    "removed": [
+        "menu.online",
+        "mcoServer.title",
+        "options.chat.scale",
+        "options.chat.width",
+        "options.chat.height.focused",
+        "options.chat.height.unfocused",
+        "options.texture.pack",
+        "tile.dropper.name",
+        "item.minecartHopper.name",
+        "container.dropper",
+        "entity.SmallFireball.name",
+        "entity.Fireball.name",
+        "commands.testfor.usage",
+        "commands.testfor.failed",
+        "mco.title",
+        "mco.selectServer.select",
+        "mco.selectServer.configure",
+        "mco.selectServer.create",
+        "mco.selectServer.moreinfo",
+        "mco.configure.world.edit.title",
+        "mco.configure.world.title",
+        "mco.configure.world.name",
+        "mco.configure.world.description",
+        "mco.configure.world.location",
+        "mco.configure.world.invited",
+        "mco.configure.world.buttons.edit",
+        "mco.configure.world.buttons.reset",
+        "mco.configure.world.buttons.done",
+        "mco.configure.world.buttons.delete",
+        "mco.configure.world.buttons.open",
+        "mco.configure.world.buttons.close",
+        "mco.configure.world.buttons.invite",
+        "mco.configure.world.buttons.uninvite",
+        "mco.configure.world.invite.profile.name",
+        "mco.configure.world.uninvite.question",
+        "mco.create.world.location.title",
+        "mco.create.world.location.warning",
+        "mco.create.world.wait",
+        "mco.reset.world.title",
+        "mco.reset.world.warning",
+        "mco.reset.world.seed",
+        "mco.reset.world.resetting.screen.title",
+        "mco.configure.world.close.question.line1",
+        "mco.configure.world.close.question.line2",
+        "mco.connect.connecting",
+        "mco.connect.authorizing",
+        "mco.connect.failed",
+        "mco.create.world"
+    ],
+    "changed": [],
+    "added": [
+        "menu.mods"
+    ],
+    "valueMoved": {
+        "options.texture.pack": [
+            "menu.mods"
+        ]
+    }
+}

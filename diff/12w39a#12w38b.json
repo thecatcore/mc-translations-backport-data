@@ -1,0 +1,12 @@
+{
+    "removed": [
+        "commands.xp.failure.widthdrawXp",
+        "commands.xp.success.levels",
+        "commands.xp.success.negative.levels"
+    ],
+    "changed": [
+        "commands.xp.usage"
+    ],
+    "added": [],
+    "valueMoved": {}
+}

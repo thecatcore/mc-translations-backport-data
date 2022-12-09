@@ -1,0 +1,28 @@
+{
+    "removed": [
+        "block.minecraft.bee_hive",
+        "block.minecraft.bee_nest",
+        "item.minecraft.bee_spawn_egg",
+        "item.minecraft.honey_bottle",
+        "item.minecraft.honeycomb",
+        "entity.minecraft.bee",
+        "death.attack.sting",
+        "death.attack.sting.player",
+        "subtitles.block.beehive.enter",
+        "subtitles.block.beehive.exit",
+        "subtitles.block.beehive.drip",
+        "subtitles.block.beehive.work",
+        "subtitles.block.beehive.shear",
+        "subtitles.entity.bee.ambient",
+        "subtitles.entity.bee.death",
+        "subtitles.entity.bee.hurt",
+        "subtitles.entity.bee.loop",
+        "subtitles.entity.bee.loop_aggressive",
+        "subtitles.entity.bee.pollinate",
+        "subtitles.entity.bee.sting",
+        "subtitles.item.honey_bottle.drink"
+    ],
+    "changed": [],
+    "added": [],
+    "valueMoved": {}
+}

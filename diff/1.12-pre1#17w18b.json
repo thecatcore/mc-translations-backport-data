@@ -1,0 +1,18 @@
+{
+    "removed": [
+        "commands.function.usage",
+        "commands.function.unknown",
+        "commands.function.success",
+        "advancements.adventure.totem_of_undying.title",
+        "advancements.adventure.totem_of_undying.description",
+        "advancements.nether.all_potions.title",
+        "advancements.nether.all_potions.description",
+        "advancements.nether.fast_travel.title",
+        "advancements.nether.fast_travel.description",
+        "advancements.nether.uneasy_alliance.title",
+        "advancements.nether.uneasy_alliance.description"
+    ],
+    "changed": [],
+    "added": [],
+    "valueMoved": {}
+}

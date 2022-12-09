@@ -1,0 +1,14 @@
+{
+    "removed": [
+        "gui.chatReport.send.comments_too_long",
+        "gui.chatReport.send.too_many_messages",
+        "multiplayer.unsecureserver.toast.title",
+        "multiplayer.unsecureserver.toast"
+    ],
+    "changed": [
+        "options.chatPreview.live",
+        "options.chatPreview.confirm"
+    ],
+    "added": [],
+    "valueMoved": {}
+}

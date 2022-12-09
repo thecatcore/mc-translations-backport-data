@@ -1,0 +1,14 @@
+{
+    "removed": [
+        "block.minecraft.terracotta"
+    ],
+    "changed": [],
+    "added": [
+        "block.minecraft.hardened_clay"
+    ],
+    "valueMoved": {
+        "block.minecraft.terracotta": [
+            "block.minecraft.hardened_clay"
+        ]
+    }
+}

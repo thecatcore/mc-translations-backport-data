@@ -1,0 +1,21 @@
+{
+    "removed": [
+        "itemGroup.buildingBlocks",
+        "itemGroup.decorations",
+        "itemGroup.redstone",
+        "itemGroup.transportation",
+        "itemGroup.misc",
+        "itemGroup.search",
+        "itemGroup.food",
+        "itemGroup.tools",
+        "itemGroup.combat",
+        "itemGroup.brewing",
+        "itemGroup.materials",
+        "itemGroup.inventory"
+    ],
+    "changed": [
+        "options.chat.title"
+    ],
+    "added": [],
+    "valueMoved": {}
+}

@@ -1,0 +1,11 @@
+{
+    "removed": [
+        "block.minecraft.sweet_berry_bush",
+        "item.minecraft.sweet_berries",
+        "death.attack.sweetBerryBush",
+        "death.attack.sweetBerryBush.player"
+    ],
+    "changed": [],
+    "added": [],
+    "valueMoved": {}
+}

@@ -1,0 +1,18 @@
+{
+    "removed": [
+        "menu.modded",
+        "multiplayerWarning.header",
+        "multiplayerWarning.message",
+        "multiplayerWarning.check",
+        "title.singleplayer",
+        "title.multiplayer.realms",
+        "title.multiplayer.lan",
+        "title.multiplayer.other"
+    ],
+    "changed": [
+        "chat.link.open",
+        "options.rawMouseInput"
+    ],
+    "added": [],
+    "valueMoved": {}
+}

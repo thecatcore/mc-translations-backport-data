@@ -1,0 +1,9 @@
+{
+    "removed": [
+        "advancements.nether.all_effects.title",
+        "advancements.nether.all_effects.description"
+    ],
+    "changed": [],
+    "added": [],
+    "valueMoved": {}
+}

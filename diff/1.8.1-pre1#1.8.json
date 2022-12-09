@@ -1,0 +1,21 @@
+{
+    "removed": [
+        "tile.pumpkinStem.name",
+        "entity.ThrownPotion.name",
+        "commands.give.item.notFound",
+        "commands.give.block.notFound"
+    ],
+    "changed": [
+        "commands.clone.usage",
+        "commands.effect.usage",
+        "commands.debug.usage"
+    ],
+    "added": [
+        "commands.give.notFound"
+    ],
+    "valueMoved": {
+        "commands.give.item.notFound": [
+            "commands.give.notFound"
+        ]
+    }
+}

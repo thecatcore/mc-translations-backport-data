@@ -1,0 +1,10 @@
+{
+    "removed": [
+        "chat.copy.click"
+    ],
+    "changed": [
+        "block.minecraft.bee_nest"
+    ],
+    "added": [],
+    "valueMoved": {}
+}

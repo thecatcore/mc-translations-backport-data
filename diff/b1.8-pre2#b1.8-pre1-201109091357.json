@@ -1,0 +1,15 @@
+{
+    "removed": [
+        "key.pickItem",
+        "tile.deadbush.name",
+        "tile.deadbush.desc",
+        "tile.tallgrass.name",
+        "tile.tallgrass.desc"
+    ],
+    "changed": [
+        "key.playerlist",
+        "tile.grass.name"
+    ],
+    "added": [],
+    "valueMoved": {}
+}

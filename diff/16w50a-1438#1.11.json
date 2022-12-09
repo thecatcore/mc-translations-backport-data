@@ -1,0 +1,12 @@
+{
+    "removed": [
+        "item.ironNugget.name",
+        "death.attack.fireworks",
+        "enchantment.sweeping"
+    ],
+    "changed": [
+        "commands.title.usage"
+    ],
+    "added": [],
+    "valueMoved": {}
+}

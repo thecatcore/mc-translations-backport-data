@@ -1,0 +1,21 @@
+{
+    "removed": [
+        "commands.data.entity.modified",
+        "commands.data.entity.query",
+        "commands.data.entity.get",
+        "commands.data.block.modified",
+        "commands.data.block.query",
+        "commands.data.block.get"
+    ],
+    "changed": [
+        "commands.teleport.success.entity.multiple",
+        "commands.teleport.success.location.single"
+    ],
+    "added": [
+        "commands.blockdata.query",
+        "commands.blockdata.success",
+        "commands.entitydata.query",
+        "commands.entitydata.success"
+    ],
+    "valueMoved": {}
+}

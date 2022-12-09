@@ -1,0 +1,30 @@
+{
+    "removed": [
+        "generator.default",
+        "generator.flat",
+        "options.languageWarning"
+    ],
+    "changed": [
+        "potion.moveSpeed.postfix",
+        "potion.moveSlowdown.postfix",
+        "potion.digSpeed.postfix",
+        "potion.digSlowDown.postfix",
+        "potion.damageBoost.postfix",
+        "potion.weakness.postfix",
+        "potion.heal.postfix",
+        "potion.harm.postfix",
+        "potion.jump.postfix",
+        "potion.confusion.postfix",
+        "potion.regeneration.postfix",
+        "potion.resistance.postfix",
+        "potion.fireResistance.postfix",
+        "potion.waterBreathing.postfix",
+        "potion.invisibility.postfix",
+        "potion.blindness.postfix",
+        "potion.nightVision.postfix",
+        "potion.hunger.postfix",
+        "potion.poison.postfix"
+    ],
+    "added": [],
+    "valueMoved": {}
+}

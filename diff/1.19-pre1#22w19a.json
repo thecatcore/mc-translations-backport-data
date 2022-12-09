@@ -1,0 +1,18 @@
+{
+    "removed": [
+        "options.onlyShowSecureChat",
+        "options.onlyShowSecureChat.tooltip",
+        "subtitles.item.bucket.fill_tadpole"
+    ],
+    "changed": [
+        "options.fovEffectScale.tooltip",
+        "subtitles.entity.goat.horn_break",
+        "subtitles.item.goat_horn.play",
+        "advancements.husbandry.allay_deliver_cake_to_note_block.description"
+    ],
+    "added": [
+        "options.onlyShowSignedChat",
+        "options.onlyShowSignedChat.tooltip"
+    ],
+    "valueMoved": {}
+}

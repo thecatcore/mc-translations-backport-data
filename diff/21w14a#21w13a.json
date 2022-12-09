@@ -1,0 +1,14 @@
+{
+    "removed": [
+        "block.minecraft.waxed_oxidized_copper",
+        "block.minecraft.waxed_oxidized_cut_copper",
+        "block.minecraft.waxed_oxidized_cut_copper_stairs",
+        "block.minecraft.waxed_oxidized_cut_copper_slab",
+        "item.minecraft.raw_copper",
+        "item.minecraft.raw_iron",
+        "item.minecraft.raw_gold"
+    ],
+    "changed": [],
+    "added": [],
+    "valueMoved": {}
+}

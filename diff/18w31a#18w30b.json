@@ -1,0 +1,17 @@
+{
+    "removed": [
+        "menu.loadingForcedChunks",
+        "death.attack.even_more_magic",
+        "death.attack.message_too_long",
+        "commands.chunk.forced",
+        "commands.chunk.unforced",
+        "commands.chunk.not.forced",
+        "commands.chunk.not.unforced",
+        "argument.dimension.invalid"
+    ],
+    "changed": [
+        "multiplayer.message_not_delivered"
+    ],
+    "added": [],
+    "valueMoved": {}
+}

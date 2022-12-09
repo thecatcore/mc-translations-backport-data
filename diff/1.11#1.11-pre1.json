@@ -1,0 +1,9 @@
+{
+    "removed": [],
+    "changed": [
+        "container.shulkerBox.more",
+        "commands.locate.success"
+    ],
+    "added": [],
+    "valueMoved": {}
+}

@@ -1,0 +1,23 @@
+{
+    "removed": [
+        "block.minecraft.barrel",
+        "block.minecraft.smoker",
+        "block.minecraft.blast_furnace",
+        "block.minecraft.cartography_table",
+        "block.minecraft.fletching_table",
+        "block.minecraft.smithing_table",
+        "block.minecraft.grindstone",
+        "block.minecraft.lectern",
+        "block.minecraft.stonecutter",
+        "block.minecraft.bell",
+        "item.minecraft.cat_spawn_egg",
+        "container.smoker",
+        "container.blast_furnace",
+        "container.barrel",
+        "advancements.husbandry.complete_catalogue.title",
+        "advancements.husbandry.complete_catalogue.description"
+    ],
+    "changed": [],
+    "added": [],
+    "valueMoved": {}
+}

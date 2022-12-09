@@ -1,0 +1,10 @@
+{
+    "removed": [
+        "gui.recipebook.search_hint"
+    ],
+    "changed": [
+        "subtitles.entity.zombified_piglin.angry"
+    ],
+    "added": [],
+    "valueMoved": {}
+}

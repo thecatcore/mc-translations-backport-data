@@ -1,0 +1,13 @@
+{
+    "removed": [
+        "death.attack.netherBed.message",
+        "death.attack.netherBed.link"
+    ],
+    "changed": [
+        "block.minecraft.redstone_wire"
+    ],
+    "added": [
+        "item.minecraft.sugar_cane"
+    ],
+    "valueMoved": {}
+}
