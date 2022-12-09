@@ -2,7 +2,6 @@ import { writableStreamFromWriter } from "https://deno.land/std@0.155.0/streams/
 import * as fs from "https://deno.land/std@0.155.0/fs/mod.ts";
 import * as zip from "https://deno.land/x/zip@v1.2.3/mod.ts";
 import { filterKeys, filterValues } from "https://deno.land/std@0.155.0/collections/mod.ts";
-import { assert } from "https://deno.land/std@0.155.0/_util/assert.ts";
 
 const decoder = new TextDecoder("utf-8");
 const encoder = new TextEncoder();
