@@ -108,6 +108,9 @@ console.log("Generating diff between lang files...")
 
 let current = versionManifest["versions"][0]["omniId"];
 
+await Deno.remove("./diff_info.json");
+const versionFromVersion: Record<string, string> = {};
+
 while (current != "b1.0") {
     const versionManifest = await fetch(versionDetails.replace("{}", current));
     const versionJson = await versionManifest.json();
@@ -139,8 +142,13 @@ while (current != "b1.0") {
         console.log("Already Done")
     }
 
+    versionFromVersion[version] = current;
+
     current = version;
 }
+
+const diffInfoString = encoder.encode(JSON.stringify(versionFromVersion));
+await Deno.writeFile("./diff_info.json", diffInfoString, {create: true});
 
 console.log("DONE")
 console.log("Fetching latest supported language list.");
