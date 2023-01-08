@@ -1,0 +1,15 @@
+{
+    "removed": [
+        "gui.back",
+        "mco.configure.world.buttons.subscription",
+        "mco.configure.world.subscription.title",
+        "mco.configure.world.subscription.daysleft",
+        "mco.configure.world.subscription.start",
+        "mco.configure.world.subscription.extend"
+    ],
+    "changed": [
+        "menu.online"
+    ],
+    "added": [],
+    "valueMoved": {}
+}
