@@ -251,16 +251,20 @@ for (const i in versionManifest["versions"]) {
 
             console.log("Extracting translation files into: " + fold);
 
-            await zip.decompress(`./jars/${vId}.jar`, "./cache");
-            
-            for (const langKey in mcMetaManifest) {
-                if (await fs.exists(`./cache/lang/${getUpperCaseCode(langKey)}.lang`)) {
-                    const lJson = await readLangFromFile(`./cache/lang/${getUpperCaseCode(langKey)}.lang`, false);
-                    await writeLangFile(fold + `${langKey}.json`, lJson, true);
+            if (await fs.exists(`./jars/${vId}.jar`)) {
+                await zip.decompress(`./jars/${vId}.jar`, "./cache");
+                
+                for (const langKey in mcMetaManifest) {
+                    if (await fs.exists(`./cache/lang/${getUpperCaseCode(langKey)}.lang`)) {
+                        const lJson = await readLangFromFile(`./cache/lang/${getUpperCaseCode(langKey)}.lang`, false);
+                        await writeLangFile(fold + `${langKey}.json`, lJson, true);
+                    }
                 }
+                
+                await fs.emptyDir("./cache");
+            } else {
+                console.log(`Unable to find jar file for version: ${vId}`)
             }
-            
-            await fs.emptyDir("./cache");
         }
     }
 }
