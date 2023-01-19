@@ -37,8 +37,6 @@ for (const i in versionManifest["versions"]) {
     const id: string = versionManifest["versions"][i]["omniId"];
     const type: string = versionManifest["versions"][i]["type"];
 
-    if (await fs.exists(`./original/${id}.json`)) continue;
-
     if (!await fs.exists(`./jars/${id}.jar`)) {
         try {
             const versionInfo = await (await fetch(versionDetails.replace("{}", id))).json();
@@ -188,10 +186,12 @@ for (const i in versionManifest["versions"]) {
         if ((vText).startsWith("<")) continue;
         
         const vManifest = JSON.parse(vText);
+
+        let aId = "pre-1.6"
         
-        if (!Object.hasOwn(vManifest, "assetIndex")) continue;
-        
-        const aId = vManifest["assetIndex"]["id"];
+        if (Object.hasOwn(vManifest, "assetIndex")) {
+            aId = vManifest["assetIndex"]["id"];
+        }
         
         if (aId != "pre-1.6") {
             const aHash = vManifest["assetIndex"]["sha1"];
