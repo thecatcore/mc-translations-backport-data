@@ -125,6 +125,10 @@ while (current != "b1.0") {
     if (version == "b1.3-1731") {
         version = "b1.2_02";
     }
+
+    if (version == "13w03a-1538") {
+        version = "13w02b"
+    }
     
     console.log(`${current} -> ${version}`)
     
