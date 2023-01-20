@@ -110,7 +110,7 @@ console.log("Generating diff between lang files...")
 let current = versionManifest["versions"][0]["omniId"];
 
 await Deno.remove("./diff_info.json");
-const versionFromVersion: Record<string, string[]> = {};
+const versionFromVersion: Record<string, string> = {};
 
 while (current != "b1.0") {
     const versionManifest = await fetch(versionDetails.replace("{}", current));
@@ -147,11 +147,7 @@ while (current != "b1.0") {
         console.log("Already Done")
     }
 
-    if (!Object.hasOwn(versionFromVersion, version)) {
-        versionFromVersion[version] = []
-    }
-
-    versionFromVersion[version].push(current);
+    versionFromVersion[version] = current;
 
     current = version;
 }
@@ -283,30 +279,6 @@ const infoString = encoder.encode(JSON.stringify(versionToAssets));
 await Deno.writeFile("./translations_info.json", infoString, {create: true});
 
 console.log("DONE");
-
-// await fs.emptyDir("./translated");
-
-// type DiffMap = Record<string, Array<string>>;
-// type DiffFile = {
-//     removed: string[],
-//     changed: string[],
-//     added: string[],
-//     valueMoved: Record<string, string[]>
-// };
-
-// const diffMap: DiffMap = {}
-
-// for await (const dirEntry of Deno.readDir("./diff")) {
-//     const entry = dirEntry.name.replace(".json", "").split("#");
-
-//     if (!Object.hasOwn(diffMap, entry[0])) {
-//         diffMap[entry[0]] = []
-//     }
-
-//     diffMap[entry[0]].push(entry[1]);
-// }
-
-// console.log("DONE")
 
 // const todoMap: Array<{
 //     parent: string,
