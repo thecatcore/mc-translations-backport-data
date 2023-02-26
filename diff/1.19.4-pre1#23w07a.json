@@ -1,0 +1,17 @@
+{
+    "removed": [
+        "mco.notification.dismiss",
+        "mco.notification.visitUrl.message.default",
+        "mco.notification.visitUrl.buttonText.default",
+        "narration.tab_navigation.usage",
+        "narrator.position.tab",
+        "options.accessibility.high_contrast",
+        "options.accessibility.high_contrast.tooltip",
+        "resourcePack.high_contrast.name"
+    ],
+    "changed": [
+        "options.realmsNotifications"
+    ],
+    "added": [],
+    "valueMoved": {}
+}
