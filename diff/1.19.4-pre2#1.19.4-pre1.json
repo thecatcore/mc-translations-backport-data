@@ -1,0 +1,11 @@
+{
+    "removed": [
+        "datapackFailure.safeMode.failed.title",
+        "datapackFailure.safeMode.failed.description",
+        "options.accessibility.high_contrast.error.tooltip",
+        "selectWorld.targetFolder"
+    ],
+    "changed": [],
+    "added": [],
+    "valueMoved": {}
+}
