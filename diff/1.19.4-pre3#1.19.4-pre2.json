@@ -1,0 +1,11 @@
+{
+    "removed": [
+        "debug.dump_dynamic_textures",
+        "debug.dump_dynamic_textures.help"
+    ],
+    "changed": [
+        "createWorld.tab.more.title"
+    ],
+    "added": [],
+    "valueMoved": {}
+}
