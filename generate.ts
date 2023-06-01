@@ -34,7 +34,7 @@ if (!(await fs.exists("./translated"))) {
 }
 
 for (const i in versionManifest["versions"]) {
-    const id: string = versionManifest["versions"][i]["omniId"];
+    const id: string = versionManifest["versions"][i]["id"];
     const type: string = versionManifest["versions"][i]["type"];
 
     if (await fs.exists(`./original/${id}.json`)) continue;
@@ -107,7 +107,7 @@ console.log("DONE")
 
 console.log("Generating diff between lang files...")
 
-let current = versionManifest["versions"][0]["omniId"];
+let current = versionManifest["versions"][0]["id"];
 
 await Deno.remove("./diff_info.json");
 const versionFromVersion: Record<string, string> = {};
@@ -239,7 +239,7 @@ for (const i in versionManifest["versions"]) {
                 }
             }
         } else {
-            const vId = versionManifest["versions"][i]["omniId"];
+            const vId = versionManifest["versions"][i]["id"];
 
             versionToAssets[verId] = aId + "/" + vId;
 
