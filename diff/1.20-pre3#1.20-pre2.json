@@ -1,0 +1,18 @@
+{
+    "removed": [],
+    "changed": [
+        "commands.banlist.list",
+        "commands.bossbar.list.bars.some",
+        "commands.datapack.list.available.success",
+        "commands.datapack.list.enabled.success",
+        "commands.scoreboard.objectives.list.success",
+        "commands.scoreboard.players.list.success",
+        "commands.team.list.teams.success",
+        "commands.whitelist.list",
+        "key.keyboard.unknown",
+        "mco.errorMessage.generic",
+        "mco.errorMessage.realmsService"
+    ],
+    "added": [],
+    "valueMoved": {}
+}
