@@ -33,6 +33,8 @@ if (!(await fs.exists("./translated"))) {
     await Deno.mkdir("./translated")
 }
 
+const noClient = []
+
 for (const i in versionManifest["versions"]) {
     const id: string = versionManifest["versions"][i]["id"];
     const type: string = versionManifest["versions"][i]["type"];
@@ -43,16 +45,20 @@ for (const i in versionManifest["versions"]) {
         try {
             const versionInfo = await (await fetch(versionDetails.replace("{}", id))).json();
 
-            if (versionInfo["downloads"]["client"] && type != "old_alpha") {
-                const jarFile = await fetch(versionInfo["downloads"]["client"]["url"])
+            if (type != "old_alpha" && type != "alpha_server" && type != "classic_server") {
+                if (versionInfo["downloads"]["client"]) {
+                    const jarFile = await fetch(versionInfo["downloads"]["client"]["url"])
 
-                if (jarFile.body) {
-                    const jarPath = await Deno.open(`./jars/${id}.jar`, { write: true, create: true });
+                    if (jarFile.body) {
+                        const jarPath = await Deno.open(`./jars/${id}.jar`, { write: true, create: true });
 
-                    const writableStream = writableStreamFromWriter(jarPath);
-                    await jarFile.body.pipeTo(writableStream);
+                        const writableStream = writableStreamFromWriter(jarPath);
+                        await jarFile.body.pipeTo(writableStream);
 
-                    console.log(id);
+                        console.log(id);
+                    }
+                } else {
+                    noClient.push(id);
                 }
             }
         } catch (e) {
@@ -241,6 +247,8 @@ for (const i in versionManifest["versions"]) {
             }
         } else {
             const vId = versionManifest["versions"][i]["id"];
+
+            if (noClient.includes(vId)) continue;
 
             versionToAssets[verId] = aId + "/" + vId;
 
