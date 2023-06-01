@@ -182,7 +182,7 @@ const versionToAssets: Record<string, string> = {}
 for (const i in versionManifest["versions"]) {
     const verId = versionManifest["versions"][i]["id"];
     const verType = versionManifest["versions"][i]["type"];
-    if (verType != "old_beta" && verType != "old_alpha" && verType != "alpha_server") {
+    if (verType != "old_beta" && verType != "old_alpha" && verType != "alpha_server" && verType != "classic_server") {
         const vMan = await fetch(versionManifest["versions"][i]["url"]);
         const vText = await vMan.text();
         
