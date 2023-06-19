@@ -1,0 +1,26 @@
+{
+    "removed": [
+        "block.minecraft.shulker_box",
+        "block.minecraft.blue_dead_coral",
+        "block.minecraft.pink_dead_coral",
+        "block.minecraft.purple_dead_coral",
+        "block.minecraft.red_dead_coral",
+        "block.minecraft.yellow_dead_coral",
+        "block.minecraft.blue_coral_plant",
+        "block.minecraft.pink_coral_plant",
+        "block.minecraft.purple_coral_plant",
+        "block.minecraft.red_coral_plant",
+        "block.minecraft.yellow_coral_plant"
+    ],
+    "changed": [
+        "block.minecraft.blue_coral",
+        "block.minecraft.pink_coral",
+        "block.minecraft.purple_coral",
+        "block.minecraft.red_coral",
+        "block.minecraft.yellow_coral"
+    ],
+    "added": [
+        "block.minecraft.dead_coral"
+    ],
+    "valueMoved": {}
+}

@@ -1,0 +1,10 @@
+{
+    "removed": [
+        "container.spectatorCantOpen"
+    ],
+    "changed": [
+        "commands.gamerule.success"
+    ],
+    "added": [],
+    "valueMoved": {}
+}

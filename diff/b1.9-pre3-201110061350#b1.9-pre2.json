@@ -1,0 +1,36 @@
+{
+    "removed": [
+        "item.emptyPotion.name",
+        "item.emptyPotion.desc",
+        "item.cauldron.name",
+        "item.cauldron.desc",
+        "item.brewingStand.name",
+        "item.brewingStand.desc",
+        "item.eyeOfEnder.name",
+        "item.eyeOfEnder..desc",
+        "potion.moveSpeed.postfix",
+        "potion.moveSlowdown.postfix",
+        "potion.digSpeed.postfix",
+        "potion.digSlowDown.postfix",
+        "potion.damageBoost.postfix",
+        "potion.weakness.postfix",
+        "potion.heal.postfix",
+        "potion.harm.postfix",
+        "potion.jump.postfix",
+        "potion.confusion.postfix",
+        "potion.regeneration.postfix",
+        "potion.resistance.postfix",
+        "potion.fireResistance.postfix",
+        "potion.waterBreathing.postfix",
+        "potion.invisibility.postfix",
+        "potion.blindness.postfix",
+        "potion.nightVision.postfix",
+        "potion.hunger.postfix",
+        "potion.poison.postfix"
+    ],
+    "changed": [
+        "entity.Arrow.name"
+    ],
+    "added": [],
+    "valueMoved": {}
+}

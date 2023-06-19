@@ -1,0 +1,10 @@
+{
+    "removed": [
+        "disconnect.loginFailedInfo.insufficientPrivileges",
+        "options.hideMatchedNames",
+        "options.hideMatchedNames.tooltip"
+    ],
+    "changed": [],
+    "added": [],
+    "valueMoved": {}
+}

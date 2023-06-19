@@ -1,0 +1,53 @@
+{
+    "removed": [
+        "chat.type.achievement",
+        "options.saturation",
+        "options.framerateLimit.max",
+        "options.fboEnable",
+        "options.postProcessEnable",
+        "options.aoDesc0",
+        "options.aoDesc1",
+        "options.framerateLimitDesc0",
+        "options.framerateLimitDesc1",
+        "options.viewBobbingDesc0",
+        "options.viewBobbingDesc1",
+        "options.renderCloudsDesc0",
+        "options.renderCloudsDesc1",
+        "options.graphicsDesc0",
+        "options.graphicsDesc1",
+        "options.renderDistanceDesc0",
+        "options.renderDistanceDesc1",
+        "options.particlesDesc0",
+        "options.particlesDesc1",
+        "options.advancedOpenglDesc0",
+        "options.advancedOpenglDesc1",
+        "options.fboEnableDesc0",
+        "options.fboEnableDesc1",
+        "options.postProcessEnableDesc0",
+        "options.postProcessEnableDesc1",
+        "options.qualityButton",
+        "options.qualityVideoTitle",
+        "options.performanceButton",
+        "options.performanceVideoTitle",
+        "options.advancedButton",
+        "options.advancedVideoTitle",
+        "options.postButton",
+        "options.postVideoTitle",
+        "options.mipmapLevels",
+        "options.anisotropicFiltering",
+        "stats.tooltip.type.achievement",
+        "stats.tooltip.type.statistic",
+        "achievement.diamondsToYou",
+        "achievement.diamondsToYou.desc"
+    ],
+    "changed": [
+        "options.framerateLimit",
+        "commands.achievement.give.success.one"
+    ],
+    "added": [
+        "performance.max",
+        "performance.balanced",
+        "performance.powersaver"
+    ],
+    "valueMoved": {}
+}

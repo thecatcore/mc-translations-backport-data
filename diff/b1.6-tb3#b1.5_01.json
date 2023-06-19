@@ -1,0 +1,13 @@
+{
+    "removed": [
+        "tile.trapdoor.name",
+        "tile.trapdoor.desc",
+        "tile.web.name",
+        "tile.web.desc",
+        "item.map.name",
+        "item.map.desc"
+    ],
+    "changed": [],
+    "added": [],
+    "valueMoved": {}
+}

@@ -1,0 +1,20 @@
+{
+    "removed": [
+        "generator.amplified.info",
+        "advancements.adventure.play_jukebox_in_meadows.title",
+        "advancements.adventure.play_jukebox_in_meadows.description"
+    ],
+    "changed": [],
+    "added": [
+        "advancements.husbandry.play_jukebox_in_meadows.title",
+        "advancements.husbandry.play_jukebox_in_meadows.description"
+    ],
+    "valueMoved": {
+        "advancements.adventure.play_jukebox_in_meadows.title": [
+            "advancements.husbandry.play_jukebox_in_meadows.title"
+        ],
+        "advancements.adventure.play_jukebox_in_meadows.description": [
+            "advancements.husbandry.play_jukebox_in_meadows.description"
+        ]
+    }
+}

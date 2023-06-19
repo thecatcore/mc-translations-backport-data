@@ -1,0 +1,23 @@
+{
+    "removed": [
+        "entity.MinecartHopper.name",
+        "entity.MinecartChest.name",
+        "attribute.name.generic.armorToughness"
+    ],
+    "changed": [
+        "subtitles.entity.endereye.launch"
+    ],
+    "added": [
+        "container.minecart",
+        "container.minecart.hopper",
+        "container.minecart.chest"
+    ],
+    "valueMoved": {
+        "entity.MinecartHopper.name": [
+            "container.minecart.hopper"
+        ],
+        "entity.MinecartChest.name": [
+            "container.minecart.chest"
+        ]
+    }
+}

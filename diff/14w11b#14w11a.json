@@ -1,0 +1,15 @@
+{
+    "removed": [
+        "tile.sapling.big_oak.name",
+        "entity.Endermite.name"
+    ],
+    "changed": [],
+    "added": [
+        "tile.sapling.roofed_oak.name"
+    ],
+    "valueMoved": {
+        "tile.sapling.big_oak.name": [
+            "tile.sapling.roofed_oak.name"
+        ]
+    }
+}

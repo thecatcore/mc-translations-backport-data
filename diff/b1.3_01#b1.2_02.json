@@ -1,0 +1,79 @@
+{
+    "removed": [
+        "gui.up",
+        "gui.down",
+        "gui.yes",
+        "gui.no",
+        "selectWorld.select",
+        "selectWorld.create",
+        "selectWorld.rename",
+        "selectWorld.deleteQuestion",
+        "selectWorld.deleteWarning",
+        "selectWorld.deleteButton",
+        "selectWorld.renameButton",
+        "selectWorld.renameTitle",
+        "selectWorld.conversion",
+        "selectWorld.newWorld",
+        "selectWorld.enterName",
+        "selectWorld.resultFolder",
+        "selectWorld.enterSeed",
+        "selectWorld.seedInfo",
+        "multiplayer.stopSleeping",
+        "options.video",
+        "options.videoTitle",
+        "options.ao",
+        "tile.stoneSlab.stone.name",
+        "tile.stoneSlab.stone.desc",
+        "tile.stoneSlab.sand.name",
+        "tile.stoneSlab.sand.desc",
+        "tile.stoneSlab.wood.name",
+        "tile.stoneSlab.wood.desc",
+        "tile.stoneSlab.cobble.name",
+        "tile.stoneSlab.cobble.desc",
+        "tile.bed.name",
+        "tile.bed.desc",
+        "tile.bed.occupied",
+        "tile.bed.noSleep",
+        "item.bed.name",
+        "item.bed.desc",
+        "item.diode.name",
+        "item.diode.desc"
+    ],
+    "changed": [
+        "selectWorld.delete",
+        "item.sulphur.name"
+    ],
+    "added": [
+        "tile.stoneSlab.name",
+        "tile.stoneSlab.desc"
+    ],
+    "valueMoved": {
+        "tile.stoneSlab.stone.name": [
+            "tile.stoneSlab.name"
+        ],
+        "tile.stoneSlab.stone.desc": [
+            "tile.stoneSlab.desc"
+        ],
+        "tile.stoneSlab.sand.desc": [
+            "tile.stoneSlab.desc"
+        ],
+        "tile.stoneSlab.wood.desc": [
+            "tile.stoneSlab.desc"
+        ],
+        "tile.stoneSlab.cobble.name": [
+            "tile.stoneSlab.name"
+        ],
+        "tile.stoneSlab.cobble.desc": [
+            "tile.stoneSlab.desc"
+        ],
+        "tile.bed.desc": [
+            "tile.stoneSlab.desc"
+        ],
+        "item.bed.desc": [
+            "tile.stoneSlab.desc"
+        ],
+        "item.diode.desc": [
+            "tile.stoneSlab.desc"
+        ]
+    }
+}

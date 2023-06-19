@@ -1,0 +1,9 @@
+{
+    "removed": [
+        "block.minecraft.scaffolding",
+        "block.minecraft.illager_banner"
+    ],
+    "changed": [],
+    "added": [],
+    "valueMoved": {}
+}

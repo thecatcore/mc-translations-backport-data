@@ -1,0 +1,18 @@
+{
+    "removed": [
+        "title.oldgl.eol.line1",
+        "title.oldgl.eol.line2",
+        "title.oldgl.deprecation.line1",
+        "title.oldgl.deprecation.line2"
+    ],
+    "changed": [],
+    "added": [
+        "title.oldgl1",
+        "title.oldgl2"
+    ],
+    "valueMoved": {
+        "title.oldgl.deprecation.line1": [
+            "title.oldgl1"
+        ]
+    }
+}

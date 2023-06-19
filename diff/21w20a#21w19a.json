@@ -1,0 +1,37 @@
+{
+    "removed": [
+        "narrator.position.screen",
+        "narrator.screen.usage",
+        "narrator.position.list",
+        "narrator.position.object_list",
+        "narration.button",
+        "narration.button.usage.focused",
+        "narration.button.usage.hovered",
+        "narration.cycle_button.usage.focused",
+        "narration.cycle_button.usage.hovered",
+        "narration.checkbox",
+        "narration.checkbox.usage.focused",
+        "narration.checkbox.usage.hovered",
+        "narration.recipe",
+        "narration.recipe.usage",
+        "narration.recipe.usage.more",
+        "narration.selection.usage",
+        "narration.component_list.usage",
+        "narration.slider.usage.focused",
+        "narration.slider.usage.hovered",
+        "narration.edit_box",
+        "subtitles.block.sweet_berry_bush.pick_berries"
+    ],
+    "changed": [
+        "chat.disabled.launcher",
+        "chat.disabled.profile"
+    ],
+    "added": [
+        "subtitles.item.berries.pick"
+    ],
+    "valueMoved": {
+        "subtitles.block.sweet_berry_bush.pick_berries": [
+            "subtitles.item.berries.pick"
+        ]
+    }
+}

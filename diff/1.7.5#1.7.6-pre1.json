@@ -1,0 +1,26 @@
+{
+    "removed": [
+        "options.serverTextures"
+    ],
+    "changed": [],
+    "added": [
+        "addServer.resourcePack",
+        "addServer.resourcePack.enabled",
+        "addServer.resourcePack.disabled",
+        "addServer.resourcePack.prompt",
+        "commands.op.failed",
+        "commands.deop.failed",
+        "commands.ban.failed",
+        "commands.unban.failed",
+        "commands.whitelist.add.failed",
+        "commands.whitelist.remove.failed",
+        "mco.selectServer.openserver",
+        "mco.selectServer.closeserver",
+        "mco.configure.world.buttons.op",
+        "mco.configure.world.buttons.deop",
+        "mco.configure.world.invites.ops.tooltip",
+        "mco.configure.world.invites.normal.tooltip",
+        "mco.configure.world.invites.remove.tooltip"
+    ],
+    "valueMoved": {}
+}

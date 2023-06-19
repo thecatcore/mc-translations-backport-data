@@ -1,0 +1,31 @@
+{
+    "removed": [
+        "gui.socialInteractions.tab_blocked",
+        "gui.socialInteractions.blocking_hint",
+        "gui.socialInteractions.status_hidden",
+        "gui.socialInteractions.status_blocked",
+        "gui.socialInteractions.status_offline",
+        "gui.socialInteractions.status_hidden_offline",
+        "gui.socialInteractions.status_blocked_offline",
+        "gui.socialInteractions.server_label.single",
+        "gui.socialInteractions.server_label.multiple",
+        "gui.socialInteractions.search_empty",
+        "gui.socialInteractions.empty_blocked",
+        "multiplayer.disconnect.outdated_client",
+        "multiplayer.disconnect.outdated_server",
+        "options.accessibility.link"
+    ],
+    "changed": [
+        "gui.socialInteractions.hide",
+        "gui.socialInteractions.show",
+        "title.multiplayer.disabled"
+    ],
+    "added": [
+        "gui.socialInteractions.server_label"
+    ],
+    "valueMoved": {
+        "gui.socialInteractions.server_label.multiple": [
+            "gui.socialInteractions.server_label"
+        ]
+    }
+}

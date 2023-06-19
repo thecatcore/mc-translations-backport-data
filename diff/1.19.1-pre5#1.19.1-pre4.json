@@ -1,0 +1,24 @@
+{
+    "removed": [
+        "multiplayer.disconnect.too_many_pending_chats",
+        "multiplayer.disconnect.chat_validation_failed",
+        "chat.previewInput",
+        "options.chatPreview.live",
+        "options.chatPreview.confirm",
+        "options.chatPreview.tooltip.off",
+        "options.chatPreview.tooltip.live",
+        "options.chatPreview.tooltip.confirm"
+    ],
+    "changed": [
+        "gui.chatReport.title",
+        "gui.abuseReport.reason.terrorism_or_violent_extremism.description",
+        "gui.abuseReport.reason.imminent_harm.description",
+        "gui.abuseReport.reason.self_harm_or_suicide.description",
+        "chatPreview.warning.content"
+    ],
+    "added": [
+        "chat.preview",
+        "options.chatPreview.tooltip"
+    ],
+    "valueMoved": {}
+}

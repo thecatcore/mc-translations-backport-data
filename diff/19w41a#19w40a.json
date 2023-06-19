@@ -1,0 +1,21 @@
+{
+    "removed": [
+        "options.key.toggle",
+        "options.key.hold",
+        "block.minecraft.beehive",
+        "block.minecraft.honey_block",
+        "block.minecraft.honeycomb_block",
+        "subtitles.block.honey_block.slide",
+        "subtitles.entity.iron_golem.damage",
+        "subtitles.entity.iron_golem.repair",
+        "commands.spectate.success.stopped",
+        "commands.spectate.success.started",
+        "commands.spectate.not_spectator",
+        "commands.spectate.self"
+    ],
+    "changed": [],
+    "added": [
+        "block.minecraft.bee_hive"
+    ],
+    "valueMoved": {}
+}

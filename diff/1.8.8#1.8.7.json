@@ -1,0 +1,13 @@
+{
+    "removed": [
+        "resourcePack.incompatible",
+        "resourcePack.incompatible.old",
+        "resourcePack.incompatible.new",
+        "resourcePack.incompatible.confirm.title",
+        "resourcePack.incompatible.confirm.old",
+        "resourcePack.incompatible.confirm.new"
+    ],
+    "changed": [],
+    "added": [],
+    "valueMoved": {}
+}

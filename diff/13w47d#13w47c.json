@@ -1,0 +1,16 @@
+{
+    "removed": [
+        "options.stream.micToggleBehavior",
+        "options.stream.mic_toggle.mute",
+        "options.stream.mic_toggle.talk",
+        "key.streamToggleMic",
+        "stream.unavailable.noFbo.extra"
+    ],
+    "changed": [
+        "stream.unavailable.notSupported.other",
+        "stream.unavailable.notSupported.mac",
+        "stream.unavailable.noFbo"
+    ],
+    "added": [],
+    "valueMoved": {}
+}

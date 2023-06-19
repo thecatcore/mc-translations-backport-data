@@ -1,0 +1,13 @@
+{
+    "removed": [
+        "mco.selectServer.expired",
+        "mco.selectServer.open",
+        "mco.selectServer.closed",
+        "mco.selectServer.expires.days",
+        "mco.selectServer.expires.day",
+        "mco.selectServer.expires.soon"
+    ],
+    "changed": [],
+    "added": [],
+    "valueMoved": {}
+}

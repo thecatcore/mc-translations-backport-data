@@ -1,0 +1,9 @@
+{
+    "removed": [
+        "container.grindstone_title",
+        "subtitles.block.grindstone.use"
+    ],
+    "changed": [],
+    "added": [],
+    "valueMoved": {}
+}

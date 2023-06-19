@@ -1,0 +1,49 @@
+{
+    "removed": [
+        "advancements.adventure.summon_iron_golem.title",
+        "advancements.adventure.summon_iron_golem.description",
+        "advancements.husbandry.root.title",
+        "advancements.husbandry.root.description",
+        "advancements.husbandry.breed_an_animal.title",
+        "advancements.husbandry.breed_an_animal.description",
+        "advancements.husbandry.breed_all_animals.title",
+        "advancements.husbandry.breed_all_animals.description",
+        "advancements.husbandry.tame_an_animal.title",
+        "advancements.husbandry.tame_an_animal.description",
+        "advancements.husbandry.plant_seed.title",
+        "advancements.husbandry.plant_seed.description",
+        "advancements.husbandry.break_diamond_hoe.title",
+        "advancements.husbandry.break_diamond_hoe.description",
+        "advancements.husbandry.balanced_diet.title",
+        "advancements.husbandry.balanced_diet.description"
+    ],
+    "changed": [],
+    "added": [
+        "advancements.adventure.breed_an_animal.title",
+        "advancements.adventure.breed_an_animal.description",
+        "advancements.adventure.breed_all_animals.title",
+        "advancements.adventure.breed_all_animals.description",
+        "advancements.adventure.tame_an_animal.title",
+        "advancements.adventure.tame_an_animal.description"
+    ],
+    "valueMoved": {
+        "advancements.husbandry.breed_an_animal.title": [
+            "advancements.adventure.breed_an_animal.title"
+        ],
+        "advancements.husbandry.breed_an_animal.description": [
+            "advancements.adventure.breed_an_animal.description"
+        ],
+        "advancements.husbandry.breed_all_animals.title": [
+            "advancements.adventure.breed_all_animals.title"
+        ],
+        "advancements.husbandry.breed_all_animals.description": [
+            "advancements.adventure.breed_all_animals.description"
+        ],
+        "advancements.husbandry.tame_an_animal.title": [
+            "advancements.adventure.tame_an_animal.title"
+        ],
+        "advancements.husbandry.tame_an_animal.description": [
+            "advancements.adventure.tame_an_animal.description"
+        ]
+    }
+}

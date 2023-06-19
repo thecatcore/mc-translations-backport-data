@@ -1,0 +1,13 @@
+{
+    "removed": [
+        "multiplayer.disconnect.unexpected_query_response",
+        "connect.negotiating",
+        "connect.encrypting",
+        "connect.joining"
+    ],
+    "changed": [
+        "multiplayer.downloadingTerrain"
+    ],
+    "added": [],
+    "valueMoved": {}
+}

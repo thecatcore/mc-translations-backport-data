@@ -1,0 +1,23 @@
+{
+    "removed": [
+        "tile.clayHardenedStained.black.name",
+        "tile.clayHardenedStained.red.name",
+        "tile.clayHardenedStained.green.name",
+        "tile.clayHardenedStained.brown.name",
+        "tile.clayHardenedStained.blue.name",
+        "tile.clayHardenedStained.purple.name",
+        "tile.clayHardenedStained.cyan.name",
+        "tile.clayHardenedStained.silver.name",
+        "tile.clayHardenedStained.gray.name",
+        "tile.clayHardenedStained.pink.name",
+        "tile.clayHardenedStained.lime.name",
+        "tile.clayHardenedStained.yellow.name",
+        "tile.clayHardenedStained.lightBlue.name",
+        "tile.clayHardenedStained.magenta.name",
+        "tile.clayHardenedStained.orange.name",
+        "tile.clayHardenedStained.white.name"
+    ],
+    "changed": [],
+    "added": [],
+    "valueMoved": {}
+}

@@ -1,0 +1,11 @@
+{
+    "removed": [],
+    "changed": [],
+    "added": [
+        "commands.message.usage",
+        "commands.message.sameTarget",
+        "commands.message.display.outgoing",
+        "commands.message.display.incoming"
+    ],
+    "valueMoved": {}
+}

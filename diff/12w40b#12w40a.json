@@ -1,0 +1,12 @@
+{
+    "removed": [
+        "commands.generic.double.tooSmall",
+        "commands.generic.double.tooBig",
+        "commands.tp.success.coordinates"
+    ],
+    "changed": [],
+    "added": [
+        "commands.tp.coordinates"
+    ],
+    "valueMoved": {}
+}

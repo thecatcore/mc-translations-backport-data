@@ -1,0 +1,23 @@
+{
+    "removed": [
+        "menu.working",
+        "menu.savingChunks",
+        "menu.preparingSpawn",
+        "multiplayer.message_not_delivered",
+        "multiplayer.status.finished",
+        "multiplayer.status.quitting",
+        "multiplayer.status.request_handled",
+        "connect.aborted",
+        "debug.inspect.help",
+        "debug.inspect.block",
+        "debug.inspect.entity",
+        "commands.replaceitem.entity.failed"
+    ],
+    "changed": [
+        "commands.replaceitem.slot.inapplicable"
+    ],
+    "added": [
+        "options.forceUnicodeFont"
+    ],
+    "valueMoved": {}
+}

@@ -1,0 +1,12 @@
+{
+    "removed": [
+        "commands.effect.usage",
+        "commands.effect.notFound",
+        "commands.effect.success"
+    ],
+    "changed": [
+        "mco.title"
+    ],
+    "added": [],
+    "valueMoved": {}
+}

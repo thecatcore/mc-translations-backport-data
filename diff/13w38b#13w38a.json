@@ -1,0 +1,9 @@
+{
+    "removed": [
+        "chat.link.confirmTrusted",
+        "chat.link.open"
+    ],
+    "changed": [],
+    "added": [],
+    "valueMoved": {}
+}

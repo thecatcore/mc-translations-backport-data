@@ -1,0 +1,15 @@
+{
+    "removed": [],
+    "changed": [
+        "commands.spreadplayers.spreading.teams",
+        "commands.spreadplayers.spreading.players",
+        "commands.spreadplayers.success.teams",
+        "commands.spreadplayers.success.players",
+        "commands.spreadplayers.failure.teams",
+        "commands.spreadplayers.failure.players",
+        "debug.pause_focus.on",
+        "debug.pause_focus.off"
+    ],
+    "added": [],
+    "valueMoved": {}
+}

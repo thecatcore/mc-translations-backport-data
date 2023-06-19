@@ -1,0 +1,18 @@
+{
+    "removed": [
+        "tile.sapling.acacia.name",
+        "tile.sapling.roofed_oak.name",
+        "tile.log.acacia.name",
+        "tile.log.big_oak.name",
+        "tile.leaves.acacia.name",
+        "tile.leaves.big_oak.name",
+        "commands.setworldspawn.usage",
+        "commands.setworldspawn.success"
+    ],
+    "changed": [
+        "options.languageWarning",
+        "commands.scoreboard.objectives.add.wrongType"
+    ],
+    "added": [],
+    "valueMoved": {}
+}

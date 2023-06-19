@@ -1,0 +1,18 @@
+{
+    "removed": [
+        "block.minecraft.dead_tube_coral",
+        "block.minecraft.dead_brain_coral",
+        "block.minecraft.dead_bubble_coral",
+        "block.minecraft.dead_fire_coral",
+        "block.minecraft.dead_horn_coral",
+        "stat.minecraft.clean_shulker_box",
+        "stat.minecraft.damage_dealt_absorbed",
+        "stat.minecraft.damage_dealt_resisted",
+        "stat.minecraft.damage_blocked_by_shield",
+        "stat.minecraft.damage_absorbed",
+        "stat.minecraft.damage_resisted"
+    ],
+    "changed": [],
+    "added": [],
+    "valueMoved": {}
+}

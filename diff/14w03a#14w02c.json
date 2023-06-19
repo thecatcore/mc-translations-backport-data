@@ -1,0 +1,27 @@
+{
+    "removed": [
+        "options.modelPart.cape",
+        "options.modelPart.hat",
+        "options.modelPart.jacket",
+        "options.modelPart.left_sleeve",
+        "options.modelPart.right_sleeve",
+        "options.modelPart.left_pants_leg",
+        "options.modelPart.right_pants_leg",
+        "commands.fill.usage",
+        "commands.fill.outOfWorld",
+        "commands.fill.tagError",
+        "commands.fill.success",
+        "commands.fill.tooManyBlocks",
+        "commands.clone.usage",
+        "commands.clone.outOfWorld",
+        "commands.clone.noOverlap",
+        "commands.clone.tooManyBlocks"
+    ],
+    "changed": [
+        "commands.tp.usage"
+    ],
+    "added": [
+        "options.showCape"
+    ],
+    "valueMoved": {}
+}

@@ -1,0 +1,20 @@
+{
+    "removed": [
+        "item.minecraft.leather_horse_armor",
+        "subtitles.entity.fox.screech",
+        "subtitles.entity.mooshroom.convert",
+        "subtitles.entity.mooshroom.eat",
+        "subtitles.entity.mooshroom.milk",
+        "subtitles.entity.mooshroom.suspicious_milk",
+        "argument.long.low",
+        "argument.long.big",
+        "parsing.long.invalid",
+        "parsing.long.expected"
+    ],
+    "changed": [],
+    "added": [
+        "options.saturation",
+        "subtitles.entity.fox.bark"
+    ],
+    "valueMoved": {}
+}

@@ -1,0 +1,10 @@
+{
+    "removed": [
+        "commands.tp.notSameDimension"
+    ],
+    "changed": [
+        "gameMode.changed"
+    ],
+    "added": [],
+    "valueMoved": {}
+}

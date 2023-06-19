@@ -1,0 +1,48 @@
+{
+    "removed": [
+        "selectWorld.edit.backupFailed",
+        "options.accessibility.title",
+        "options.accessibility.text_background",
+        "options.accessibility.text_background.chat",
+        "options.accessibility.text_background.everywhere",
+        "options.accessibility.text_background_opacity",
+        "merchant.current_level",
+        "merchant.next_level",
+        "merchant.level.1",
+        "merchant.level.2",
+        "merchant.level.3",
+        "merchant.level.4",
+        "merchant.level.5",
+        "block.minecraft.bed.obstructed",
+        "item.minecraft.crossbow.projectile",
+        "item.minecraft.globe_banner_pattern",
+        "item.minecraft.globe_banner_pattern.desc",
+        "entity.minecraft.villager.none",
+        "subtitles.entity.parrot.imitate.guardian",
+        "subtitles.entity.parrot.imitate.panda",
+        "subtitles.entity.parrot.imitate.pillager",
+        "subtitles.entity.parrot.imitate.ravager",
+        "subtitles.entity.villager.work_armorer",
+        "subtitles.entity.villager.work_butcher",
+        "subtitles.entity.villager.work_cartographer",
+        "subtitles.entity.villager.work_cleric",
+        "subtitles.entity.villager.work_farmer",
+        "subtitles.entity.villager.work_fisherman",
+        "subtitles.entity.villager.work_fletcher",
+        "subtitles.entity.villager.work_leatherworker",
+        "subtitles.entity.villager.work_librarian",
+        "subtitles.entity.villager.work_mason",
+        "subtitles.entity.villager.work_shepherd",
+        "subtitles.entity.villager.work_toolsmith",
+        "subtitles.entity.villager.work_weaponsmith"
+    ],
+    "changed": [
+        "options.chat.opacity",
+        "merchant.deprecated"
+    ],
+    "added": [
+        "createWorld.customize.flat.addLayer",
+        "createWorld.customize.flat.editLayer"
+    ],
+    "valueMoved": {}
+}

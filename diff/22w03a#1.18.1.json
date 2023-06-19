@@ -1,0 +1,14 @@
+{
+    "removed": [
+        "commands.locate.invalid",
+        "commands.placefeature.failed",
+        "commands.placefeature.invalid",
+        "commands.placefeature.success",
+        "commands.spreadplayers.failed.invalid.height"
+    ],
+    "changed": [
+        "commands.locate.failed"
+    ],
+    "added": [],
+    "valueMoved": {}
+}

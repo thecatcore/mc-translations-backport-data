@@ -1,0 +1,11 @@
+{
+    "removed": [
+        "multiplayer.disconnect.expired_public_key",
+        "chat.disabled.expiredProfileKey"
+    ],
+    "changed": [],
+    "added": [
+        "multiplayer.disconnect.invalid_public_key"
+    ],
+    "valueMoved": {}
+}

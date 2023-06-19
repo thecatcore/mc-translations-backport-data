@@ -1,0 +1,42 @@
+{
+    "removed": [],
+    "changed": [
+        "generator.amplified",
+        "mco.configure.world.buttons.edit",
+        "mco.configure.world.buttons.modifyMiniGame",
+        "mco.backup.title"
+    ],
+    "added": [
+        "mco.configure.world.edit.subscreen.title",
+        "mco.configure.world.buttons.activity",
+        "mco.configure.world.buttons.moreoptions",
+        "mco.configure.world.buttons.editworld",
+        "mco.configure.world.pvp",
+        "mco.configure.world.spawnAnimals",
+        "mco.configure.world.spawnNPCs",
+        "mco.configure.world.spawnMonsters",
+        "mco.configure.world.spawnProtection",
+        "mco.configure.world.on",
+        "mco.configure.world.off",
+        "mco.backup.backup",
+        "mco.backup.nobackups",
+        "mco.backup.button.upload",
+        "mco.backup.button.reset",
+        "mco.backuplink.title",
+        "mco.backuplink.text",
+        "mco.backuplink.copybutton",
+        "mco.upload.select.world.title",
+        "mco.upload.button.name",
+        "mco.upload.verifying",
+        "mco.upload.preparing",
+        "mco.upload.close.failure",
+        "mco.upload.size.failure",
+        "mco.upload.uploading",
+        "mco.upload.done",
+        "mco.upload.failed",
+        "mco.upload.cancelled",
+        "mco.activity.title",
+        "mco.activity.noactivity"
+    ],
+    "valueMoved": {}
+}

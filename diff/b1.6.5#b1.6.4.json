@@ -1,0 +1,10 @@
+{
+    "removed": [
+        "options.framerateLimit"
+    ],
+    "changed": [],
+    "added": [
+        "options.limitFramerate"
+    ],
+    "valueMoved": {}
+}

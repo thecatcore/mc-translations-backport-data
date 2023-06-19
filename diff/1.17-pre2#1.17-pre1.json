@@ -1,0 +1,16 @@
+{
+    "removed": [
+        "block.minecraft.flowering_azalea_leaves"
+    ],
+    "changed": [
+        "commands.debug.started"
+    ],
+    "added": [
+        "block.minecraft.azalea_leaves_flowers"
+    ],
+    "valueMoved": {
+        "block.minecraft.flowering_azalea_leaves": [
+            "block.minecraft.azalea_leaves_flowers"
+        ]
+    }
+}

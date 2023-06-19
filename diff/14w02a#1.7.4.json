@@ -1,0 +1,72 @@
+{
+    "removed": [
+        "difficulty.lock.title",
+        "difficulty.lock.question",
+        "merchant.deprecated",
+        "tile.stone.stone.name",
+        "tile.stone.granite.name",
+        "tile.stone.graniteSmooth.name",
+        "tile.stone.diorite.name",
+        "tile.stone.dioriteSmooth.name",
+        "tile.stone.andesite.name",
+        "tile.stone.andesiteSmooth.name",
+        "tile.dirt.name",
+        "tile.sand.name",
+        "tile.flower1.name",
+        "tile.flower2.name",
+        "tile.doublePlant.name",
+        "tile.stoneSlab.name",
+        "tile.woodSlab.name",
+        "tile.woolCarpet.name",
+        "tile.clayHardenedStained.name",
+        "tile.monsterStoneEgg.name",
+        "tile.quartzBlock.name",
+        "tile.slime.name",
+        "container.enchant.lapis.one",
+        "container.enchant.lapis.many",
+        "container.enchant.level.one",
+        "container.enchant.level.many",
+        "container.enchant.clue",
+        "container.isLocked",
+        "item.canBreak",
+        "entity.Villager.farmer",
+        "entity.Villager.fisherman",
+        "entity.Villager.shepherd",
+        "entity.Villager.fletcher",
+        "entity.Villager.librarian",
+        "entity.Villager.cleric",
+        "entity.Villager.armor",
+        "entity.Villager.weapon",
+        "entity.Villager.tool",
+        "entity.Villager.butcher",
+        "entity.Villager.leather",
+        "commands.generic.entity.notFound",
+        "commands.generic.entity.invalidUuid",
+        "commands.blockdata.usage",
+        "commands.blockdata.success",
+        "commands.blockdata.tagError",
+        "commands.blockdata.outOfWorld",
+        "commands.blockdata.notValid",
+        "commands.clear.testing",
+        "commands.clear.tagError",
+        "commands.kill.successful",
+        "commands.testfor.failure",
+        "commands.testfor.success",
+        "commands.testfor.tagError"
+    ],
+    "changed": [
+        "commands.clear.usage",
+        "commands.kill.usage",
+        "commands.testfor.usage"
+    ],
+    "added": [
+        "tile.stone.name",
+        "commands.kill.success",
+        "commands.testfor.failed"
+    ],
+    "valueMoved": {
+        "tile.stone.stone.name": [
+            "tile.stone.name"
+        ]
+    }
+}

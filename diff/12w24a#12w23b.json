@@ -1,0 +1,10 @@
+{
+    "removed": [
+        "container.chestDouble",
+        "commands.publish.started",
+        "commands.publish.failed"
+    ],
+    "changed": [],
+    "added": [],
+    "valueMoved": {}
+}

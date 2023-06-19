@@ -1,0 +1,13 @@
+{
+    "removed": [],
+    "changed": [],
+    "added": [
+        "block.minecraft.sculk",
+        "block.minecraft.sculk_catalyst",
+        "block.minecraft.sculk_vein",
+        "advancements.end.ride_dragon.title",
+        "advancements.end.ride_dragon.description",
+        "gamemode.gamemodeNotFound"
+    ],
+    "valueMoved": {}
+}

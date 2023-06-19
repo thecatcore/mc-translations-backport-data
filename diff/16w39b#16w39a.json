@@ -1,0 +1,31 @@
+{
+    "removed": [
+        "tile.shulkerBoxWhite.name",
+        "tile.shulkerBoxOrange.name",
+        "tile.shulkerBoxMagenta.name",
+        "tile.shulkerBoxLightBlue.name",
+        "tile.shulkerBoxYellow.name",
+        "tile.shulkerBoxLime.name",
+        "tile.shulkerBoxPink.name",
+        "tile.shulkerBoxGray.name",
+        "tile.shulkerBoxSilver.name",
+        "tile.shulkerBoxCyan.name",
+        "tile.shulkerBoxPurple.name",
+        "tile.shulkerBoxBlue.name",
+        "tile.shulkerBoxBrown.name",
+        "tile.shulkerBoxGreen.name",
+        "tile.shulkerBoxRed.name",
+        "tile.shulkerBoxBlack.name",
+        "stat.shulkerBoxOpened",
+        "subtitles.block.shulker_box.close",
+        "subtitles.block.shulker_box.open"
+    ],
+    "changed": [
+        "commands.save.usage",
+        "subtitles.entity.llama.ambient"
+    ],
+    "added": [
+        "tile.shulkerBox.name"
+    ],
+    "valueMoved": {}
+}

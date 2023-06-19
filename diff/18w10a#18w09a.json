@@ -1,0 +1,17 @@
+{
+    "removed": [
+        "item.minecraft.clownfish_bucket",
+        "item.minecraft.tropical_fish_spawn_egg",
+        "filled_map.buried_treasure",
+        "stat.minecraft.time_since_rest"
+    ],
+    "changed": [],
+    "added": [
+        "stat.minecraft.time_since_sleep"
+    ],
+    "valueMoved": {
+        "stat.minecraft.time_since_rest": [
+            "stat.minecraft.time_since_sleep"
+        ]
+    }
+}

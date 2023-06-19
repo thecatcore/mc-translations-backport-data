@@ -1,0 +1,9 @@
+{
+    "removed": [],
+    "changed": [
+        "commands.scoreboard.usage",
+        "commands.scoreboard.teams.usage"
+    ],
+    "added": [],
+    "valueMoved": {}
+}

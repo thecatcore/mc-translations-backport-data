@@ -1,0 +1,11 @@
+{
+    "removed": [
+        "gui.copy_link_to_clipboard",
+        "narrator.select.world_info",
+        "symlink_warning.title",
+        "symlink_warning.message"
+    ],
+    "changed": [],
+    "added": [],
+    "valueMoved": {}
+}

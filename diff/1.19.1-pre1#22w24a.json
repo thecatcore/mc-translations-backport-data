@@ -1,0 +1,29 @@
+{
+    "removed": [
+        "gui.acknowledge",
+        "gui.socialInteractions.tooltip.report.disabled",
+        "gui.chatReport.standards",
+        "gui.chatReport.standards_name",
+        "gui.chatSelection.context",
+        "gui.multiLineEditBox.character_limit",
+        "gui.banned.title.temporary",
+        "gui.banned.title.permanent",
+        "gui.banned.description",
+        "gui.banned.description.reason",
+        "gui.banned.description.unknownreason",
+        "gui.banned.description.temporary.duration",
+        "gui.banned.description.temporary",
+        "gui.banned.description.permanent",
+        "disconnect.loginFailedInfo.userBanned",
+        "gui.minutes",
+        "gui.hours",
+        "gui.days"
+    ],
+    "changed": [
+        "gui.chatReport.selected_chat",
+        "gui.abuseReport.reason.non_consensual_intimate_imagery",
+        "gui.chatSelection.fold"
+    ],
+    "added": [],
+    "valueMoved": {}
+}

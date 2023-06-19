@@ -1,0 +1,14 @@
+{
+    "removed": [
+        "generator.largeBiomes",
+        "tile.sandStone.chiseled.name",
+        "tile.stonebricksmooth.chiseled.name",
+        "tile.cocoa.name"
+    ],
+    "changed": [],
+    "added": [
+        "tile.sandStone.heiroglyphic.name",
+        "tile.stonebricksmooth.detail.name"
+    ],
+    "valueMoved": {}
+}

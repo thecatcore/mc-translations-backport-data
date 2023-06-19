@@ -1,0 +1,12 @@
+{
+    "removed": [
+        "mco.invites.button.accept",
+        "mco.invites.button.reject",
+        "mco.invites.title"
+    ],
+    "changed": [
+        "stat.createWorld"
+    ],
+    "added": [],
+    "valueMoved": {}
+}

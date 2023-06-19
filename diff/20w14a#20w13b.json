@@ -1,0 +1,117 @@
+{
+    "removed": [
+        "selectWorld.locked",
+        "selectWorld.access_failure",
+        "selectWorld.delete_failure",
+        "item.minecraft.zoglin_spawn_egg",
+        "entity.minecraft.zoglin",
+        "attribute.name.horse.jump_strength",
+        "attribute.name.zombie.spawn_reinforcements",
+        "attribute.name.generic.max_health",
+        "attribute.name.generic.follow_range",
+        "attribute.name.generic.knockback_resistance",
+        "attribute.name.generic.movement_speed",
+        "attribute.name.generic.flying_speed",
+        "attribute.name.generic.attack_damage",
+        "attribute.name.generic.attack_knockback",
+        "attribute.name.generic.attack_speed",
+        "attribute.name.generic.armor_toughness",
+        "subtitles.block.beacon.activate",
+        "subtitles.block.beacon.ambient",
+        "subtitles.block.beacon.deactivate",
+        "subtitles.block.beacon.power_select",
+        "subtitles.block.conduit.activate",
+        "subtitles.block.conduit.ambient",
+        "subtitles.block.conduit.attack.target",
+        "subtitles.block.conduit.deactivate",
+        "subtitles.block.enchantment_table.use",
+        "subtitles.block.end_portal.spawn",
+        "subtitles.block.end_portal_frame.fill",
+        "subtitles.block.pumpkin.carve",
+        "subtitles.block.smithing_table.use",
+        "subtitles.entity.boat.paddle_land",
+        "subtitles.entity.boat.paddle_water",
+        "subtitles.entity.cat.beg_for_food",
+        "subtitles.entity.cat.eat",
+        "subtitles.entity.cat.hiss",
+        "subtitles.entity.drowned.ambient_water",
+        "subtitles.entity.ender_eye.death",
+        "subtitles.entity.fishing_bobber.retrieve",
+        "subtitles.entity.hoglin.converted_to_zombified",
+        "subtitles.entity.horse.land",
+        "subtitles.entity.parrot.fly",
+        "subtitles.entity.player.attack.crit",
+        "subtitles.entity.player.attack.knockback",
+        "subtitles.entity.player.attack.strong",
+        "subtitles.entity.player.attack.sweep",
+        "subtitles.entity.player.attack.weak",
+        "subtitles.entity.player.hurt_drown",
+        "subtitles.entity.player.hurt_on_fire",
+        "subtitles.entity.strider.death",
+        "subtitles.entity.strider.eat",
+        "subtitles.entity.strider.happy",
+        "subtitles.entity.strider.hurt",
+        "subtitles.entity.strider.idle",
+        "subtitles.entity.strider.retreat",
+        "subtitles.entity.tropical_fish.death",
+        "subtitles.entity.tropical_fish.flop",
+        "subtitles.entity.tropical_fish.hurt",
+        "subtitles.entity.wandering_trader.disappeared",
+        "subtitles.entity.wandering_trader.drink_milk",
+        "subtitles.entity.wandering_trader.drink_potion",
+        "subtitles.entity.wandering_trader.reappeared",
+        "subtitles.entity.zoglin.ambient",
+        "subtitles.entity.zoglin.angry",
+        "subtitles.entity.zoglin.attack",
+        "subtitles.entity.zoglin.death",
+        "subtitles.entity.zoglin.hurt",
+        "subtitles.entity.zoglin.step",
+        "subtitles.entity.zombie.destroy_egg",
+        "subtitles.item.bottle.empty",
+        "subtitles.item.bucket.fill_fish"
+    ],
+    "changed": [
+        "subtitles.block.iron_trapdoor.close",
+        "subtitles.block.iron_trapdoor.open"
+    ],
+    "added": [
+        "attribute.name.horse.jumpStrength",
+        "attribute.name.zombie.spawnReinforcements",
+        "attribute.name.generic.maxHealth",
+        "attribute.name.generic.followRange",
+        "attribute.name.generic.knockbackResistance",
+        "attribute.name.generic.movementSpeed",
+        "attribute.name.generic.attackDamage",
+        "attribute.name.generic.attackSpeed",
+        "attribute.name.generic.armorToughness"
+    ],
+    "valueMoved": {
+        "attribute.name.horse.jump_strength": [
+            "attribute.name.horse.jumpStrength"
+        ],
+        "attribute.name.zombie.spawn_reinforcements": [
+            "attribute.name.zombie.spawnReinforcements"
+        ],
+        "attribute.name.generic.max_health": [
+            "attribute.name.generic.maxHealth"
+        ],
+        "attribute.name.generic.follow_range": [
+            "attribute.name.generic.followRange"
+        ],
+        "attribute.name.generic.knockback_resistance": [
+            "attribute.name.generic.knockbackResistance"
+        ],
+        "attribute.name.generic.movement_speed": [
+            "attribute.name.generic.movementSpeed"
+        ],
+        "attribute.name.generic.attack_damage": [
+            "attribute.name.generic.attackDamage"
+        ],
+        "attribute.name.generic.attack_speed": [
+            "attribute.name.generic.attackSpeed"
+        ],
+        "attribute.name.generic.armor_toughness": [
+            "attribute.name.generic.armorToughness"
+        ]
+    }
+}

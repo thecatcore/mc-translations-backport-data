@@ -1,0 +1,15 @@
+{
+    "removed": [
+        "advancements.empty",
+        "subtitles.entity.parrot.ambient",
+        "subtitles.entity.parrot.death",
+        "subtitles.entity.parrot.eats",
+        "subtitles.entity.parrot.hurts"
+    ],
+    "changed": [
+        "commands.advancement.revoke.usage",
+        "commands.recipe.alreadyHave"
+    ],
+    "added": [],
+    "valueMoved": {}
+}

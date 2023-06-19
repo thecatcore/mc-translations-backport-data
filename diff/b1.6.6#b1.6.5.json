@@ -1,0 +1,12 @@
+{
+    "removed": [
+        "performance.max",
+        "performance.balanced",
+        "performance.powersaver"
+    ],
+    "changed": [
+        "options.framerateLimit"
+    ],
+    "added": [],
+    "valueMoved": {}
+}

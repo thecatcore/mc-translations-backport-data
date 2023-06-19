@@ -1,0 +1,16 @@
+{
+    "removed": [
+        "gameMode.spectator",
+        "selectWorld.gameMode.spectator",
+        "selectWorld.gameMode.spectator.line1",
+        "selectWorld.gameMode.spectator.line2",
+        "book.generation.0",
+        "book.generation.1",
+        "book.generation.2",
+        "book.generation.3",
+        "tile.barrier.name"
+    ],
+    "changed": [],
+    "added": [],
+    "valueMoved": {}
+}

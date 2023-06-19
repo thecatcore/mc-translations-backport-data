@@ -1,0 +1,16 @@
+{
+    "removed": [
+        "block.minecraft.dripstone_block",
+        "block.minecraft.pointed_dripstone",
+        "item.minecraft.bundle.fullness",
+        "subtitles.block.pointed_dripstone.land",
+        "subtitles.block.pointed_dripstone.drip_lava",
+        "subtitles.block.pointed_dripstone.drip_water",
+        "subtitles.block.pointed_dripstone.drip_lava_into_cauldron",
+        "subtitles.block.pointed_dripstone.drip_water_into_cauldron",
+        "gamerule.freezeDamage"
+    ],
+    "changed": [],
+    "added": [],
+    "valueMoved": {}
+}

@@ -1,0 +1,10 @@
+{
+    "removed": [
+        "commands.clear.failure"
+    ],
+    "changed": [
+        "lanServer.scanning"
+    ],
+    "added": [],
+    "valueMoved": {}
+}

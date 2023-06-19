@@ -1,0 +1,12 @@
+{
+    "removed": [
+        "stream.unavailable.account_not_migrated",
+        "stream.unavailable.account_not_migrated.okay"
+    ],
+    "changed": [
+        "stream.unavailable.not_supported.mac",
+        "stream.unavailable.not_supported.other"
+    ],
+    "added": [],
+    "valueMoved": {}
+}

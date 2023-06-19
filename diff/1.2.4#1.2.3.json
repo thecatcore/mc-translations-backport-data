@@ -1,0 +1,10 @@
+{
+    "removed": [
+        "chat.link.confirm",
+        "chat.link.warning",
+        "chat.copy"
+    ],
+    "changed": [],
+    "added": [],
+    "valueMoved": {}
+}

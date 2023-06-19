@@ -1,0 +1,30 @@
+{
+    "removed": [
+        "container.beacon",
+        "commands.compare.usage",
+        "commands.compare.outOfWorld",
+        "commands.compare.failed",
+        "commands.compare.success",
+        "commands.compare.tooManyBlocks",
+        "commands.scoreboard.noMultiWildcard",
+        "commands.scoreboard.allMatchesFailed",
+        "commands.scoreboard.players.test.usage",
+        "commands.scoreboard.players.test.notFound",
+        "commands.scoreboard.players.test.failed",
+        "commands.scoreboard.players.test.success",
+        "commands.scoreboard.players.operation.usage",
+        "commands.scoreboard.players.operation.notFound",
+        "commands.scoreboard.players.operation.invalidOperation",
+        "commands.scoreboard.players.operation.success",
+        "commands.execute.usage",
+        "commands.execute.failed",
+        "advMode.allEntities"
+    ],
+    "changed": [
+        "commands.blockdata.failed",
+        "commands.scoreboard.players.usage",
+        "commands.scoreboard.teams.option.usage"
+    ],
+    "added": [],
+    "valueMoved": {}
+}

@@ -1,0 +1,9 @@
+{
+    "removed": [],
+    "changed": [
+        "tile.shulkerBoxSilver.name",
+        "commands.locate.usage"
+    ],
+    "added": [],
+    "valueMoved": {}
+}

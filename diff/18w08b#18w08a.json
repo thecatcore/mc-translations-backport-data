@@ -1,0 +1,13 @@
+{
+    "removed": [
+        "item.minecraft.pufferfish_bucket",
+        "item.minecraft.salmon_bucket",
+        "item.minecraft.cod_bucket",
+        "item.minecraft.cod_mob_spawn_egg",
+        "item.minecraft.puffer_fish_spawn_egg",
+        "item.minecraft.salmon_mob_spawn_egg"
+    ],
+    "changed": [],
+    "added": [],
+    "valueMoved": {}
+}

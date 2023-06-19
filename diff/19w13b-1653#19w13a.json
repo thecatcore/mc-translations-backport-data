@@ -1,0 +1,30 @@
+{
+    "removed": [
+        "merchant.trades",
+        "event.minecraft.raid.raiders_remaining",
+        "block.minecraft.banner.globe.black",
+        "block.minecraft.banner.globe.red",
+        "block.minecraft.banner.globe.green",
+        "block.minecraft.banner.globe.brown",
+        "block.minecraft.banner.globe.blue",
+        "block.minecraft.banner.globe.purple",
+        "block.minecraft.banner.globe.cyan",
+        "block.minecraft.banner.globe.light_gray",
+        "block.minecraft.banner.globe.gray",
+        "block.minecraft.banner.globe.pink",
+        "block.minecraft.banner.globe.lime",
+        "block.minecraft.banner.globe.yellow",
+        "block.minecraft.banner.globe.light_blue",
+        "block.minecraft.banner.globe.magenta",
+        "block.minecraft.banner.globe.orange",
+        "block.minecraft.banner.globe.white",
+        "subtitles.block.bell.resonate"
+    ],
+    "changed": [
+        "item.minecraft.globe_banner_pattern"
+    ],
+    "added": [
+        "event.minecraft.raid.mobs_remaining"
+    ],
+    "valueMoved": {}
+}

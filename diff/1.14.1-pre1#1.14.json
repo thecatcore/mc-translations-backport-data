@@ -1,0 +1,9 @@
+{
+    "removed": [
+        "menu.paused",
+        "debug.pause.help"
+    ],
+    "changed": [],
+    "added": [],
+    "valueMoved": {}
+}

@@ -1,0 +1,23 @@
+{
+    "removed": [
+        "multiplayer.disconnect.missing_public_key",
+        "multiplayer.disconnect.invalid_public_key_signature",
+        "multiplayer.disconnect.invalid_public_key",
+        "item.minecraft.goat_horn",
+        "item.minecraft.goat_horn.sound.0",
+        "item.minecraft.goat_horn.sound.1",
+        "item.minecraft.goat_horn.sound.2",
+        "item.minecraft.goat_horn.sound.3",
+        "item.minecraft.goat_horn.sound.4",
+        "item.minecraft.goat_horn.sound.5",
+        "item.minecraft.goat_horn.sound.6",
+        "item.minecraft.goat_horn.sound.7",
+        "death.attack.sonic_boom",
+        "death.attack.sonic_boom.player",
+        "subtitles.entity.goat.horn_break",
+        "subtitles.item.goat_horn.play"
+    ],
+    "changed": [],
+    "added": [],
+    "valueMoved": {}
+}

@@ -1,0 +1,13 @@
+{
+    "removed": [
+        "lanServer.port.unavailable.new",
+        "lanServer.port.invalid.new",
+        "commands.fillbiome.success.count"
+    ],
+    "changed": [
+        "lanServer.port",
+        "telemetry.event.world_loaded.description"
+    ],
+    "added": [],
+    "valueMoved": {}
+}

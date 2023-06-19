@@ -1,0 +1,11 @@
+{
+    "removed": [
+        "enchantment.arrowDamage",
+        "enchantment.arrowFire",
+        "enchantment.arrowKnockback",
+        "enchantment.arrowInfinite"
+    ],
+    "changed": [],
+    "added": [],
+    "valueMoved": {}
+}

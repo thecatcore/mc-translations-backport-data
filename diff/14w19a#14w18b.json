@@ -1,0 +1,19 @@
+{
+    "removed": [
+        "commands.worldborder.damage.usage",
+        "commands.worldborder.damage.buffer.usage",
+        "commands.worldborder.damage.buffer.success",
+        "commands.worldborder.damage.amount.usage",
+        "commands.worldborder.damage.amount.success",
+        "commands.worldborder.warning.usage",
+        "commands.worldborder.warning.time.usage",
+        "commands.worldborder.warning.time.success",
+        "commands.worldborder.warning.distance.usage",
+        "commands.worldborder.warning.distance.success"
+    ],
+    "changed": [
+        "commands.worldborder.usage"
+    ],
+    "added": [],
+    "valueMoved": {}
+}

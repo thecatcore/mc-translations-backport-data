@@ -1,0 +1,11 @@
+{
+    "removed": [
+        "tile.ironTrapdoor.name",
+        "commands.execute.allInvocationsFailed"
+    ],
+    "changed": [
+        "tile.trapdoor.name"
+    ],
+    "added": [],
+    "valueMoved": {}
+}

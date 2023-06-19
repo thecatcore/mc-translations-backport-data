@@ -1,0 +1,10 @@
+{
+    "removed": [
+        "tile.blockCoal.name"
+    ],
+    "changed": [],
+    "added": [
+        "item.horsesaddle.name"
+    ],
+    "valueMoved": {}
+}

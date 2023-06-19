@@ -1,0 +1,16 @@
+{
+    "removed": [
+        "options.resourcepack"
+    ],
+    "changed": [
+        "tile.litpumpkin.name"
+    ],
+    "added": [
+        "options.texture.pack"
+    ],
+    "valueMoved": {
+        "options.resourcepack": [
+            "options.texture.pack"
+        ]
+    }
+}

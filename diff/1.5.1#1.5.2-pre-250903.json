@@ -1,0 +1,28 @@
+{
+    "removed": [],
+    "changed": [
+        "mco.reset.world.seed"
+    ],
+    "added": [
+        "chat.link.confirmTrusted",
+        "chat.link.open",
+        "commands.save.flushStart",
+        "commands.save.flushEnd",
+        "mco.configure.world.seed",
+        "mco.configure.world.status",
+        "mco.configure.world.buttons.save",
+        "mco.configure.world.buttons.settings",
+        "mco.configure.world.settings.title",
+        "mco.gameMode",
+        "mco.gameMode.survival",
+        "mco.gameMode.survival.line1",
+        "mco.gameMode.survival.line2",
+        "mco.gameMode.creative",
+        "mco.gameMode.creative.line1",
+        "mco.gameMode.creative.line2",
+        "mco.gameMode.adventure",
+        "mco.gameMode.adventure.line1",
+        "mco.gameMode.adventure.line2"
+    ],
+    "valueMoved": {}
+}

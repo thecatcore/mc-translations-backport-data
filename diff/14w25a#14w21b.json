@@ -1,0 +1,25 @@
+{
+    "removed": [
+        "tile.dirt.coarse.name",
+        "tile.sponge.dry.name",
+        "tile.sponge.wet.name",
+        "tile.prismarine.rough.name",
+        "tile.prismarine.bricks.name",
+        "tile.prismarine.dark.name",
+        "tile.seaLantern.name",
+        "item.prismarineShard.name",
+        "item.prismarineCrystals.name",
+        "entity.Guardian.name",
+        "enchantment.waterWalker"
+    ],
+    "changed": [],
+    "added": [
+        "options.anisotropicFiltering",
+        "tile.sponge.name"
+    ],
+    "valueMoved": {
+        "tile.sponge.dry.name": [
+            "tile.sponge.name"
+        ]
+    }
+}

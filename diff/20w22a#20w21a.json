@@ -1,0 +1,12 @@
+{
+    "removed": [
+        "datapackFailure.title",
+        "datapackFailure.safeMode",
+        "jigsaw_block.keep_jigsaws",
+        "death.attack.witherSkull",
+        "commands.reload.failure"
+    ],
+    "changed": [],
+    "added": [],
+    "valueMoved": {}
+}

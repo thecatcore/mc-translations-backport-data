@@ -1,0 +1,17 @@
+{
+    "removed": [
+        "block.minecraft.composter",
+        "subtitles.block.barrel.close",
+        "subtitles.block.barrel.open",
+        "subtitles.block.blastfurnace.fire_crackle",
+        "subtitles.block.smoker.smoke",
+        "subtitles.item.crop.plant",
+        "subtitles.item.nether_wart.plant",
+        "subtitles.item.berries.pick"
+    ],
+    "changed": [
+        "lectern.take_book"
+    ],
+    "added": [],
+    "valueMoved": {}
+}

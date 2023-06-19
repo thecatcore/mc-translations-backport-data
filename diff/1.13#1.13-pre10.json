@@ -1,0 +1,13 @@
+{
+    "removed": [
+        "optimizeWorld.stage.counting",
+        "optimizeWorld.stage.finished",
+        "optimizeWorld.stage.failed",
+        "optimizeWorld.info.converted",
+        "optimizeWorld.info.skipped",
+        "optimizeWorld.info.total"
+    ],
+    "changed": [],
+    "added": [],
+    "valueMoved": {}
+}

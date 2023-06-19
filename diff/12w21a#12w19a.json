@@ -1,0 +1,23 @@
+{
+    "removed": [
+        "tile.stairsSandStone.name",
+        "tile.enderChest.name",
+        "tile.oreRuby.name",
+        "tile.oreEmerald.name",
+        "item.diamond.name",
+        "item.ruby.name",
+        "container.enderchest"
+    ],
+    "changed": [
+        "tile.woodSlab.oak.name",
+        "tile.woodSlab.spruce.name",
+        "tile.woodSlab.birch.name",
+        "tile.woodSlab.jungle.name",
+        "item.emerald.name",
+        "commands.ban.usage",
+        "commands.banip.usage",
+        "commands.help.usage"
+    ],
+    "added": [],
+    "valueMoved": {}
+}

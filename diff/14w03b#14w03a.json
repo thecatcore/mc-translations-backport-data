@@ -1,0 +1,11 @@
+{
+    "removed": [
+        "options.skinCustomisation",
+        "options.skinCustomisation.title"
+    ],
+    "changed": [],
+    "added": [
+        "commands.generic.deprecatedId"
+    ],
+    "valueMoved": {}
+}

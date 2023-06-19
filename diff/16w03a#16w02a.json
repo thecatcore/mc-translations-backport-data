@@ -1,0 +1,9 @@
+{
+    "removed": [
+        "container.minecart.hopper",
+        "container.minecart.chest"
+    ],
+    "changed": [],
+    "added": [],
+    "valueMoved": {}
+}

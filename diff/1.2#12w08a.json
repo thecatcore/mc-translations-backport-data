@@ -1,0 +1,10 @@
+{
+    "removed": [],
+    "changed": [
+        "item.bootsGold.name",
+        "item.bucketLava.name",
+        "entity.PigZombie.name"
+    ],
+    "added": [],
+    "valueMoved": {}
+}

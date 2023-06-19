@@ -1,0 +1,13 @@
+{
+    "removed": [
+        "commands.save.flushStart",
+        "commands.save.flushEnd"
+    ],
+    "changed": [
+        "options.snooper.title",
+        "options.snooper.desc",
+        "subtitles.entity.lightning.impact"
+    ],
+    "added": [],
+    "valueMoved": {}
+}

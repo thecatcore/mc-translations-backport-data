@@ -1,0 +1,10 @@
+{
+    "removed": [
+        "options.fullscreen.unavailable",
+        "commands.debug.reportSaved",
+        "commands.debug.reportFailed"
+    ],
+    "changed": [],
+    "added": [],
+    "valueMoved": {}
+}

@@ -1,0 +1,16 @@
+{
+    "removed": [
+        "block.minecraft.warped_hyphae",
+        "block.minecraft.stripped_warped_hyphae",
+        "block.minecraft.crimson_hyphae",
+        "block.minecraft.stripped_crimson_hyphae",
+        "container.upgrade",
+        "stat.minecraft.interact_with_smithing_table"
+    ],
+    "changed": [
+        "selectWorld.backupJoinConfirmButton",
+        "selectWorld.tooltip.snapshot1"
+    ],
+    "added": [],
+    "valueMoved": {}
+}

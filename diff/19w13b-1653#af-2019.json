@@ -1,0 +1,32 @@
+{
+    "removed": [],
+    "changed": [
+        "demo.help.title",
+        "demo.help.buy"
+    ],
+    "added": [
+        "menu.select_episode",
+        "menu.modem_play",
+        "menu.modem_played1",
+        "menu.modem_played2",
+        "demo.help.nag1",
+        "demo.help.nag2",
+        "demo.help.nag3",
+        "key.boss_mode",
+        "key.increase_view",
+        "key.decrease_view",
+        "item.minecraft.red_key",
+        "item.minecraft.blue_key",
+        "item.minecraft.yellow_key",
+        "item.minecraft.3d",
+        "item.key.tooltip",
+        "death.attack.nightmare",
+        "death.attack.nightmare.player",
+        "ui.next_disk.title",
+        "ui.next_disk.contents",
+        "ui.next_disk.wrong_contents",
+        "feedback.line1",
+        "feedback.line2"
+    ],
+    "valueMoved": {}
+}

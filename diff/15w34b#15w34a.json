@@ -1,0 +1,13 @@
+{
+    "removed": [
+        "advMode.mode.conditional",
+        "advMode.mode.unconditional",
+        "attribute.modifier.equals.0",
+        "attribute.modifier.equals.1",
+        "attribute.modifier.equals.2",
+        "attribute.name.generic.attackSpeed"
+    ],
+    "changed": [],
+    "added": [],
+    "valueMoved": {}
+}

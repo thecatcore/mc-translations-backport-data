@@ -1,0 +1,33 @@
+{
+    "removed": [
+        "soundCategory.record",
+        "soundCategory.hostile",
+        "soundCategory.neutral",
+        "soundCategory.player",
+        "soundCategory.block",
+        "soundCategory.ambient",
+        "mco.buy.realms.title",
+        "mco.buy.realms.buy",
+        "mco.selectServer.buy",
+        "mco.configure.world.restore.download.question.line1",
+        "mco.configure.world.restore.download.question.line2",
+        "mco.more.info.question.line1",
+        "mco.more.info.question.line2",
+        "mco.invites.nopending"
+    ],
+    "changed": [
+        "mco.configure.world.restore.question.line1"
+    ],
+    "added": [
+        "soundCategory.records",
+        "soundCategory.mobs",
+        "soundCategory.animals",
+        "soundCategory.players",
+        "soundCategory.blocks"
+    ],
+    "valueMoved": {
+        "soundCategory.player": [
+            "soundCategory.players"
+        ]
+    }
+}

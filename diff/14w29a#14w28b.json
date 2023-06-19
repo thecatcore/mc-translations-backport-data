@@ -1,0 +1,18 @@
+{
+    "removed": [
+        "options.vbo",
+        "options.reducedDebugInfo",
+        "stat.talkedToVillager",
+        "stat.tradedWithVillager",
+        "commands.time.query",
+        "commands.gamerule.nopermission",
+        "commands.worldborder.get.success"
+    ],
+    "changed": [
+        "commands.particle.usage",
+        "commands.time.usage",
+        "commands.worldborder.usage"
+    ],
+    "added": [],
+    "valueMoved": {}
+}

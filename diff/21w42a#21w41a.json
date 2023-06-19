@@ -1,0 +1,10 @@
+{
+    "removed": [
+        "options.autosaveIndicator",
+        "item.minecraft.music_disc_otherside",
+        "item.minecraft.music_disc_otherside.desc"
+    ],
+    "changed": [],
+    "added": [],
+    "valueMoved": {}
+}

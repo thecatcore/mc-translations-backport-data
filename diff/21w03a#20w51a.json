@@ -1,0 +1,43 @@
+{
+    "removed": [
+        "selectWorld.backupQuestion.snapshot",
+        "selectWorld.backupWarning.snapshot",
+        "selectWorld.backupQuestion.downgrade",
+        "selectWorld.backupWarning.downgrade",
+        "block.minecraft.glow_lichen",
+        "item.minecraft.glow_squid_spawn_egg",
+        "item.minecraft.glow_ink_sac",
+        "item.minecraft.glow_item_frame",
+        "entity.minecraft.glow_item_frame",
+        "entity.minecraft.glow_squid",
+        "death.attack.stalagmite",
+        "death.attack.stalagmite.player",
+        "subtitles.entity.glow_squid.ambient",
+        "subtitles.entity.glow_squid.death",
+        "subtitles.entity.glow_squid.hurt",
+        "subtitles.entity.glow_squid.squirt",
+        "subtitles.item.ink_sac.use",
+        "subtitles.item.glow_ink_sac.use",
+        "subtitles.item.dye.use"
+    ],
+    "changed": [
+        "disconnect.loginFailedInfo.serversUnavailable",
+        "subtitles.block.pointed_dripstone.drip_lava_into_cauldron",
+        "subtitles.block.pointed_dripstone.drip_water_into_cauldron",
+        "subtitles.entity.shulker_bullet.hit",
+        "subtitles.entity.shulker_bullet.hurt",
+        "biome.minecraft.dripstone_caves"
+    ],
+    "added": [
+        "selectWorld.backupQuestion",
+        "selectWorld.backupWarning"
+    ],
+    "valueMoved": {
+        "selectWorld.backupQuestion.snapshot": [
+            "selectWorld.backupQuestion"
+        ],
+        "selectWorld.backupWarning.snapshot": [
+            "selectWorld.backupWarning"
+        ]
+    }
+}

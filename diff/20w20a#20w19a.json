@@ -1,0 +1,44 @@
+{
+    "removed": [
+        "debug.gamemodes.help",
+        "debug.gamemodes.error",
+        "debug.gamemodes.press_f4",
+        "debug.gamemodes.select_next",
+        "advancements.husbandry.netherite_hoe.title",
+        "advancements.husbandry.netherite_hoe.description",
+        "advancements.nether.obtain_ancient_debris.title",
+        "advancements.nether.obtain_ancient_debris.description",
+        "advancements.nether.netherite_armor.title",
+        "advancements.nether.netherite_armor.description",
+        "advancements.nether.use_lodestone.title",
+        "advancements.nether.use_lodestone.description",
+        "advancements.nether.obtain_crying_obsidian.title",
+        "advancements.nether.obtain_crying_obsidian.description",
+        "advancements.nether.charge_respawn_anchor.title",
+        "advancements.nether.charge_respawn_anchor.description",
+        "advancements.nether.ride_strider.title",
+        "advancements.nether.ride_strider.description",
+        "advancements.nether.explore_nether.title",
+        "advancements.nether.explore_nether.description",
+        "advancements.nether.find_bastion.title",
+        "advancements.nether.find_bastion.description",
+        "advancements.nether.loot_bastion.title",
+        "advancements.nether.loot_bastion.description",
+        "advancements.nether.distract_piglin.title",
+        "advancements.nether.distract_piglin.description"
+    ],
+    "changed": [
+        "advancements.adventure.bullseye.description",
+        "advancements.story.deflect_arrow.description",
+        "advancements.story.form_obsidian.description"
+    ],
+    "added": [
+        "advancements.husbandry.break_diamond_hoe.title",
+        "advancements.husbandry.break_diamond_hoe.description"
+    ],
+    "valueMoved": {
+        "advancements.husbandry.netherite_hoe.title": [
+            "advancements.husbandry.break_diamond_hoe.title"
+        ]
+    }
+}

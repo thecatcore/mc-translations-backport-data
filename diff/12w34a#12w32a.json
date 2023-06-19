@@ -1,0 +1,22 @@
+{
+    "removed": [
+        "tile.cobbleWall.normal.name",
+        "tile.cobbleWall.mossy.name",
+        "tile.carrots.name",
+        "tile.potatoes.name",
+        "item.frame.name",
+        "item.flowerPot.name",
+        "item.emptyMap.name",
+        "item.carrots.name",
+        "item.carrotGolden.name",
+        "item.potato.name",
+        "item.potatoBaked.name",
+        "item.potatoPoisonous.name",
+        "death.wither",
+        "potion.wither",
+        "potion.wither.postfix"
+    ],
+    "changed": [],
+    "added": [],
+    "valueMoved": {}
+}

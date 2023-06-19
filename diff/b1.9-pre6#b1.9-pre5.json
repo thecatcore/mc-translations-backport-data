@@ -1,0 +1,22 @@
+{
+    "removed": [
+        "options.particles",
+        "options.particles.all",
+        "options.particles.decreased",
+        "options.particles.minimal",
+        "tile.tallgrass.shrub.name",
+        "tile.tallgrass.shrub.desc",
+        "tile.tallgrass.grass.name",
+        "tile.tallgrass.grass.desc",
+        "tile.tallgrass.fern.name",
+        "tile.tallgrass.fern.desc",
+        "tile.bed.notSafe",
+        "tile.dragonEgg.name",
+        "tile.dragonEgg.desc"
+    ],
+    "changed": [
+        "menu.mods"
+    ],
+    "added": [],
+    "valueMoved": {}
+}

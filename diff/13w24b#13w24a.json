@@ -1,0 +1,20 @@
+{
+    "removed": [
+        "resourcePack.openFolder",
+        "resourcePack.title",
+        "resourcePack.folderInfo",
+        "potion.healthBoost",
+        "potion.absorption"
+    ],
+    "changed": [
+        "multiplayer.texturePrompt.line1",
+        "options.texture.pack"
+    ],
+    "added": [
+        "texturePack.openFolder",
+        "texturePack.title",
+        "texturePack.folderInfo",
+        "texturePack.incompatible"
+    ],
+    "valueMoved": {}
+}

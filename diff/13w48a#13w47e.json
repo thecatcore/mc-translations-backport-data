@@ -1,0 +1,63 @@
+{
+    "removed": [
+        "key.fullscreen",
+        "stream.unavailable.report_to_mojang",
+        "stream.unavailable.account_not_bound",
+        "stream.unavailable.account_not_bound.okay",
+        "stream.unavailable.failed_auth",
+        "stream.unavailable.failed_auth.okay",
+        "stream.unavailable.failed_auth_error",
+        "stream.unavailable.initialization_failure",
+        "stream.unavailable.initialization_failure.extra",
+        "stream.unavailable.library_arch_mismatch",
+        "stream.unavailable.library_failure",
+        "stream.unavailable.no_fbo",
+        "stream.unavailable.no_fbo.version",
+        "stream.unavailable.no_fbo.blend",
+        "stream.unavailable.no_fbo.arb",
+        "stream.unavailable.no_fbo.ext",
+        "stream.unavailable.not_supported.windows",
+        "stream.unavailable.not_supported.mac",
+        "stream.unavailable.not_supported.mac.okay",
+        "stream.unavailable.not_supported.other"
+    ],
+    "changed": [
+        "stream.unavailable.unknown"
+    ],
+    "added": [
+        "stream.unavailable.notOnline",
+        "stream.unavailable.notLoggedIn",
+        "stream.unavailable.notLoggedIn.okay",
+        "stream.unavailable.initializationFailure",
+        "stream.unavailable.initializationFailure.extra",
+        "stream.unavailable.notSupported.other",
+        "stream.unavailable.notSupported.mac",
+        "stream.unavailable.notSupported.mac.okay",
+        "stream.unavailable.noFbo",
+        "stream.unavailable.noFbo.extra",
+        "stream.unavailable.archMismatch"
+    ],
+    "valueMoved": {
+        "stream.unavailable.account_not_bound.okay": [
+            "stream.unavailable.notLoggedIn.okay"
+        ],
+        "stream.unavailable.initialization_failure.extra": [
+            "stream.unavailable.initializationFailure.extra"
+        ],
+        "stream.unavailable.library_arch_mismatch": [
+            "stream.unavailable.archMismatch"
+        ],
+        "stream.unavailable.no_fbo.version": [
+            "stream.unavailable.noFbo.extra"
+        ],
+        "stream.unavailable.not_supported.mac": [
+            "stream.unavailable.notSupported.mac"
+        ],
+        "stream.unavailable.not_supported.mac.okay": [
+            "stream.unavailable.notSupported.mac.okay"
+        ],
+        "stream.unavailable.not_supported.other": [
+            "stream.unavailable.notSupported.other"
+        ]
+    }
+}

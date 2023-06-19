@@ -1,0 +1,15 @@
+{
+    "removed": [
+        "translation.test.complex",
+        "translation.test.escape",
+        "translation.test.invalid",
+        "translation.test.invalid2"
+    ],
+    "changed": [
+        "tile.hayBlock.name"
+    ],
+    "added": [
+        "potion.healthBoost"
+    ],
+    "valueMoved": {}
+}

@@ -1,0 +1,35 @@
+{
+    "removed": [
+        "entity.horse.name",
+        "entity.donkey.name",
+        "entity.mule.name",
+        "entity.skeletonhorse.name",
+        "entity.zombiehorse.name"
+    ],
+    "changed": [],
+    "added": [
+        "entity.ElderGuardian.name",
+        "entity.Horse.name",
+        "entity.Donkey.name",
+        "entity.Mule.name",
+        "entity.SkeletonHorse.name",
+        "entity.ZombieHorse.name"
+    ],
+    "valueMoved": {
+        "entity.horse.name": [
+            "entity.Horse.name"
+        ],
+        "entity.donkey.name": [
+            "entity.Donkey.name"
+        ],
+        "entity.mule.name": [
+            "entity.Mule.name"
+        ],
+        "entity.skeletonhorse.name": [
+            "entity.SkeletonHorse.name"
+        ],
+        "entity.zombiehorse.name": [
+            "entity.ZombieHorse.name"
+        ]
+    }
+}

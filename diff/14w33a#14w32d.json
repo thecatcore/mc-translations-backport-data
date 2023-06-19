@@ -1,0 +1,15 @@
+{
+    "removed": [
+        "tile.pressurePlateStone.name",
+        "tile.pressurePlateWood.name",
+        "item.doorOak.name"
+    ],
+    "changed": [
+        "tile.stoneSlab.sand.name"
+    ],
+    "added": [
+        "tile.pressurePlate.name",
+        "item.doorWood.name"
+    ],
+    "valueMoved": {}
+}

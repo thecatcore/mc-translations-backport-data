@@ -1,0 +1,15 @@
+{
+    "removed": [
+        "block.minecraft.sculk_sensor",
+        "death.attack.fallingStalactite",
+        "death.attack.fallingStalactite.player",
+        "subtitles.block.sculk_sensor.clicking",
+        "subtitles.block.sculk_sensor.clicking_stop",
+        "biome.minecraft.dripstone_caves"
+    ],
+    "changed": [
+        "subtitles.block.pointed_dripstone.land"
+    ],
+    "added": [],
+    "valueMoved": {}
+}

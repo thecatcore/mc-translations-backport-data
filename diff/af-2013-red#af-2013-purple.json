@@ -1,0 +1,30 @@
+{
+    "removed": [],
+    "changed": [
+        "options.anaglyph",
+        "tile.dropper.name"
+    ],
+    "added": [
+        "tile.ethoSlab.tntUnlit.name",
+        "tile.ethoSlab.tntLit.name",
+        "tile.torchOff.name",
+        "tile.blockCoal.name",
+        "tile.tintedGlass.black.name",
+        "tile.tintedGlass.red.name",
+        "tile.tintedGlass.green.name",
+        "tile.tintedGlass.brown.name",
+        "tile.tintedGlass.blue.name",
+        "tile.tintedGlass.purple.name",
+        "tile.tintedGlass.cyan.name",
+        "tile.tintedGlass.silver.name",
+        "tile.tintedGlass.gray.name",
+        "tile.tintedGlass.pink.name",
+        "tile.tintedGlass.lime.name",
+        "tile.tintedGlass.yellow.name",
+        "tile.tintedGlass.lightBlue.name",
+        "tile.tintedGlass.magenta.name",
+        "tile.tintedGlass.orange.name",
+        "tile.tintedGlass.white.name"
+    ],
+    "valueMoved": {}
+}

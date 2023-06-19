@@ -1,0 +1,21 @@
+{
+    "removed": [
+        "effect.luck",
+        "effect.unluck",
+        "tipped_arrow.effect.empty",
+        "tipped_arrow.effect.mundane",
+        "tipped_arrow.effect.thick",
+        "tipped_arrow.effect.awkward",
+        "tipped_arrow.effect.luck",
+        "potion.effect.empty",
+        "potion.effect.luck",
+        "splash_potion.effect.empty",
+        "splash_potion.effect.luck",
+        "lingering_potion.effect.empty",
+        "lingering_potion.effect.luck",
+        "attribute.name.generic.luck"
+    ],
+    "changed": [],
+    "added": [],
+    "valueMoved": {}
+}

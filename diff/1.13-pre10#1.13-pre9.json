@@ -1,0 +1,14 @@
+{
+    "removed": [
+        "optimizeWorld.confirm.title",
+        "optimizeWorld.confirm.description",
+        "optimizeWorld.title",
+        "optimizeWorld.stage.upgrading",
+        "selectWorld.edit.optimize"
+    ],
+    "changed": [
+        "options.fullscreen.resolution"
+    ],
+    "added": [],
+    "valueMoved": {}
+}

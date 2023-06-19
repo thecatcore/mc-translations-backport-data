@@ -1,0 +1,39 @@
+{
+    "removed": [
+        "commands.data.modify.invalid_substring",
+        "death.attack.genericKill.player",
+        "mco.errorMessage.6005",
+        "mco.errorMessage.6006",
+        "mco.errorMessage.6007",
+        "mco.errorMessage.6008",
+        "mco.errorMessage.6009"
+    ],
+    "changed": [
+        "advancements.husbandry.safely_harvest_honey.description",
+        "chat.disabled.launcher",
+        "chat.disabled.options",
+        "chat.disabled.profile",
+        "commands.bossbar.get.players.some",
+        "commands.bossbar.list.bars.some",
+        "commands.bossbar.set.players.success.some",
+        "commands.clone.success",
+        "commands.datapack.list.available.success",
+        "commands.datapack.list.enabled.success",
+        "commands.fill.success",
+        "commands.fillbiome.success.count",
+        "commands.scoreboard.objectives.list.success",
+        "commands.scoreboard.players.list.entity.success",
+        "commands.scoreboard.players.list.success",
+        "commands.team.empty.success",
+        "commands.team.list.members.success",
+        "commands.team.list.teams.success",
+        "mco.configure.world.uninvite.player",
+        "options.graphics.warning.accept",
+        "options.graphics.warning.cancel",
+        "structure_block.detect_size",
+        "telemetry.event.advancement_made.description",
+        "telemetry.event.game_load_times.description"
+    ],
+    "added": [],
+    "valueMoved": {}
+}

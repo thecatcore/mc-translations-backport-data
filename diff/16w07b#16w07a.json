@@ -1,0 +1,28 @@
+{
+    "removed": [],
+    "changed": [
+        "subtitles.block.brewing_stand.brew",
+        "subtitles.block.chorus_flower.death",
+        "subtitles.block.chorus_flower.grow",
+        "subtitles.block.comparator.click",
+        "subtitles.block.fence_gate.toggle",
+        "subtitles.block.pressure_plate.click",
+        "subtitles.entity.enderpearl.throw",
+        "subtitles.entity.generic.death",
+        "subtitles.entity.itemframe.add_item",
+        "subtitles.entity.itemframe.break",
+        "subtitles.entity.itemframe.place",
+        "subtitles.entity.itemframe.remove_item",
+        "subtitles.entity.itemframe.rotate_item",
+        "subtitles.entity.skeleton_horse.ambient",
+        "subtitles.entity.skeleton_horse.death",
+        "subtitles.entity.skeleton_horse.hurt",
+        "subtitles.entity.snowman.death",
+        "subtitles.entity.snowman.hurt",
+        "subtitles.item.armor.equip",
+        "subtitles.item.armor.equip_iron",
+        "subtitles.item.flintandsteel.use"
+    ],
+    "added": [],
+    "valueMoved": {}
+}

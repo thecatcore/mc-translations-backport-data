@@ -1,0 +1,9 @@
+{
+    "removed": [],
+    "changed": [],
+    "added": [
+        "death.attack.dryout",
+        "death.attack.dryout.player"
+    ],
+    "valueMoved": {}
+}

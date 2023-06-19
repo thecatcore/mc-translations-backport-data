@@ -1,0 +1,12 @@
+{
+    "removed": [
+        "chat.disabled.profile.moreInfo",
+        "subtitles.block.sculk.charge",
+        "subtitles.block.sculk.spread"
+    ],
+    "changed": [
+        "chat.disabled.profile"
+    ],
+    "added": [],
+    "valueMoved": {}
+}
