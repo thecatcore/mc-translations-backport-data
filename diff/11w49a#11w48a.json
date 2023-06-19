@@ -1,8 +1,5 @@
 {
     "removed": [
-        "language.name",
-        "language.region",
-        "language.code",
         "menu.returnToMenu",
         "menu.disconnect",
         "menu.returnToGame",

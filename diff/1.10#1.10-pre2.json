@@ -20,7 +20,6 @@
         "subtitles.entity.wither_skeleton.hurt"
     ],
     "changed": [
-        "language.region",
         "multiplayer.downloadingTerrain",
         "tile.clayHardenedStained.name",
         "tile.clayHardenedStained.black.name",

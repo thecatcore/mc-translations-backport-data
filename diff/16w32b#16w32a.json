@@ -3,7 +3,6 @@
         "entity.Villager.nitwit"
     ],
     "changed": [
-        "language.code",
         "createWorld.customize.flat.layer.top",
         "createWorld.customize.flat.layer",
         "createWorld.customize.flat.layer.bottom",
