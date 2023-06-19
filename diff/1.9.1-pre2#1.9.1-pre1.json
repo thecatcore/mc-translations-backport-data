@@ -1,9 +1,0 @@
-{
-    "removed": [],
-    "changed": [
-        "entity.MinecartHopper.name",
-        "entity.MinecartChest.name"
-    ],
-    "added": [],
-    "valueMoved": {}
-}

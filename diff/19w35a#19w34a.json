@@ -1,9 +1,0 @@
-{
-    "removed": [],
-    "changed": [],
-    "added": [
-        "deathScreen.deleteWorld",
-        "deathScreen.leaveServer"
-    ],
-    "valueMoved": {}
-}

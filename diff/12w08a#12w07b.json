@@ -1,9 +1,0 @@
-{
-    "removed": [
-        "entity.VillagerGolem.name",
-        "entity.SnowMan.name"
-    ],
-    "changed": [],
-    "added": [],
-    "valueMoved": {}
-}

@@ -1,9 +1,0 @@
-{
-    "removed": [
-        "death.attack.dragonBreath",
-        "tipped_arrow.effect.water"
-    ],
-    "changed": [],
-    "added": [],
-    "valueMoved": {}
-}

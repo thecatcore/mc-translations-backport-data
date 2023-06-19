@@ -1,9 +1,0 @@
-{
-    "removed": [
-        "advMode.mode.redstoneTriggered",
-        "advMode.mode.autoexec.bat"
-    ],
-    "changed": [],
-    "added": [],
-    "valueMoved": {}
-}

@@ -1,9 +1,0 @@
-{
-    "removed": [
-        "options.simulationDistance",
-        "subtitles.block.growing_plant.crop"
-    ],
-    "changed": [],
-    "added": [],
-    "valueMoved": {}
-}
