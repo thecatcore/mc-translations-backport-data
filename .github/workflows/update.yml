@@ -21,12 +21,12 @@ jobs:
 
     steps:
       - name: Setup repo
-        uses: actions/checkout@v3.1.0
+        uses: actions/checkout@v3
 
       - name: Setup Deno
-        uses: denoland/setup-deno@v1.1.1
+        uses: denoland/setup-deno@v1
         with:
-          deno-version: v1.29.x
+          deno-version: v1.x
 
       - name: Generate
         run: deno run --allow-net --allow-read --allow-write --allow-run ./generate.ts

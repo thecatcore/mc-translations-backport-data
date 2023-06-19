@@ -1,7 +1,10 @@
-import { writableStreamFromWriter } from "https://deno.land/std@0.155.0/streams/mod.ts";
-import * as fs from "https://deno.land/std@0.155.0/fs/mod.ts";
-import * as zip from "https://deno.land/x/zip@v1.2.3/mod.ts";
-import { filterKeys, filterValues } from "https://deno.land/std@0.155.0/collections/mod.ts";
+import { writableStreamFromWriter } from "https://deno.land/std@0.192.0/streams/writable_stream_from_writer.ts";
+import { exists } from "https://deno.land/std@0.192.0/fs/exists.ts";
+import { emptyDir } from "https://deno.land/std@0.192.0/fs/empty_dir.ts";
+import { move } from "https://deno.land/std@0.192.0/fs/move.ts";
+import { decompress } from "https://deno.land/x/zip@v1.2.5/decompress.ts";
+import { filterKeys } from "https://deno.land/std@0.192.0/collections/filter_keys.ts";
+import { filterValues } from "https://deno.land/std@0.192.0/collections/filter_values.ts";
 
 const decoder = new TextDecoder("utf-8");
 const encoder = new TextEncoder();
@@ -13,23 +16,23 @@ const versionManifest = await versionListFile.json();
 
 console.log("Downloading mc jars...");
 
-if (!(await fs.exists("./jars"))) {
+if (!(await exists("./jars"))) {
     await Deno.mkdir("./jars")
 }
 
-if (!(await fs.exists("./original"))) {
+if (!(await exists("./original"))) {
     await Deno.mkdir("./original")
 }
 
-if (!(await fs.exists("./translated_original"))) {
+if (!(await exists("./translated_original"))) {
     await Deno.mkdir("./translated_original")
 }
 
-if (!(await fs.exists("./diff"))) {
+if (!(await exists("./diff"))) {
     await Deno.mkdir("./diff")
 }
 
-if (!(await fs.exists("./translated"))) {
+if (!(await exists("./translated"))) {
     await Deno.mkdir("./translated")
 }
 
@@ -39,9 +42,9 @@ for (const i in versionManifest["versions"]) {
     const id: string = versionManifest["versions"][i]["id"];
     const type: string = versionManifest["versions"][i]["type"];
 
-    if (await fs.exists(`./original/${id}.json`)) continue;
+    if (await exists(`./original/${id}.json`)) continue;
 
-    if (!await fs.exists(`./jars/${id}.jar`)) {
+    if (!await exists(`./jars/${id}.jar`)) {
         try {
             const versionInfo = await (await fetch(versionDetails.replace("{}", id))).json();
 
@@ -62,7 +65,7 @@ for (const i in versionManifest["versions"]) {
                 }
             }
         } catch (e) {
-            if (await fs.exists(`./original/${id}.json`)) continue;
+            if (await exists(`./original/${id}.json`)) continue;
 
             throw e;
         }
@@ -71,7 +74,7 @@ for (const i in versionManifest["versions"]) {
 
 console.log("DONE");
 
-await fs.emptyDir("./cache")
+await emptyDir("./cache")
 
 console.log("Extracting lang file...")
 
@@ -80,22 +83,22 @@ for await (const dirEntry of Deno.readDir("./jars")) {
 
     const version = name.replace(".jar", "");
 
-    if (await fs.exists(`./original/${version}.json`)) continue;
+    if (await exists(`./original/${version}.json`)) continue;
 
-    await zip.decompress(`./jars/${name}`, "./cache");
+    await decompress(`./jars/${name}`, "./cache");
 
-    if (await fs.exists(`./cache/assets/minecraft/lang/en_us.json`)) {
-        await fs.move(`./cache/assets/minecraft/lang/en_us.json`, `./original/${version}.json`);
-    } else if (await fs.exists(`./cache/assets/minecraft/lang/en_us.lang`)) {
+    if (await exists(`./cache/assets/minecraft/lang/en_us.json`)) {
+        await move(`./cache/assets/minecraft/lang/en_us.json`, `./original/${version}.json`);
+    } else if (await exists(`./cache/assets/minecraft/lang/en_us.lang`)) {
         const data = await readLangFromFile(`./cache/assets/minecraft/lang/en_us.lang`, false);
         await writeLangFile(`./original/${version}.json`, data, true);
-    } else if (await fs.exists(`./cache/assets/minecraft/lang/en_US.lang`)) {
+    } else if (await exists(`./cache/assets/minecraft/lang/en_US.lang`)) {
         const data = await readLangFromFile(`./cache/assets/minecraft/lang/en_US.lang`, false);
         await writeLangFile(`./original/${version}.json`, data, true);
-    } else if (await fs.exists(`./cache/lang/en_US.lang`)) {
+    } else if (await exists(`./cache/lang/en_US.lang`)) {
         const data = await readLangFromFile(`./cache/lang/en_US.lang`, false);
 
-        if (await fs.exists(`./cache/lang/stats_US.lang`)) {
+        if (await exists(`./cache/lang/stats_US.lang`)) {
             const data2 = await readLangFromFile(`./cache/lang/stats_US.lang`, false);
 
             for (const key in data2) {
@@ -106,7 +109,7 @@ for await (const dirEntry of Deno.readDir("./jars")) {
         await writeLangFile(`./original/${version}.json`, data, true);
     }
 
-    await fs.emptyDir("./cache");
+    await emptyDir("./cache");
 }
 
 console.log("DONE")
@@ -138,7 +141,7 @@ while (current != "b1.0") {
     
     console.log(`${current} -> ${version}`)
     
-    if (!(await fs.exists(`./diff/${current}#${version}.json`))) {
+    if (!(await exists(`./diff/${current}#${version}.json`))) {
         console.log("Generating diff json...")
         const currentJson = await getVersionLang(current);
 
@@ -208,11 +211,11 @@ for (const i in versionManifest["versions"]) {
 
             versionToAssets[verId] = aId + "/" + aHash;
 
-            if (!(await fs.exists(`./translated_original/${aId}`))) {
+            if (!(await exists(`./translated_original/${aId}`))) {
                 await Deno.mkdir(`./translated_original/${aId}`)
             }
 
-            if (!(await fs.exists(`./translated_original/${aId}/${aHash}`))) {
+            if (!(await exists(`./translated_original/${aId}/${aHash}`))) {
                 await Deno.mkdir(`./translated_original/${aId}/${aHash}`)
             } else {
                 continue;
@@ -252,11 +255,11 @@ for (const i in versionManifest["versions"]) {
 
             versionToAssets[verId] = aId + "/" + vId;
 
-            if (!(await fs.exists(`./translated_original/${aId}`))) {
+            if (!(await exists(`./translated_original/${aId}`))) {
                 await Deno.mkdir(`./translated_original/${aId}`)
             }
 
-            if (!(await fs.exists(`./translated_original/${aId}/${vId}`))) {
+            if (!(await exists(`./translated_original/${aId}/${vId}`))) {
                 await Deno.mkdir(`./translated_original/${aId}/${vId}`)
             } else {
                 continue;
@@ -266,17 +269,17 @@ for (const i in versionManifest["versions"]) {
 
             console.log("Extracting translation files into: " + fold);
 
-            if (await fs.exists(`./jars/${vId}.jar`)) {
-                await zip.decompress(`./jars/${vId}.jar`, "./cache");
+            if (await exists(`./jars/${vId}.jar`)) {
+                await decompress(`./jars/${vId}.jar`, "./cache");
                 
                 for (const langKey in mcMetaManifest) {
-                    if (await fs.exists(`./cache/lang/${getUpperCaseCode(langKey)}.lang`)) {
+                    if (await exists(`./cache/lang/${getUpperCaseCode(langKey)}.lang`)) {
                         const lJson = await readLangFromFile(`./cache/lang/${getUpperCaseCode(langKey)}.lang`, false);
                         await writeLangFile(fold + `${langKey}.json`, lJson, true);
                     }
                 }
                 
-                await fs.emptyDir("./cache");
+                await emptyDir("./cache");
             } else {
                 console.log(`Unable to find jar file for version: ${vId}`)
             }
@@ -337,7 +340,7 @@ function compareJsons(current: Record<string, string>, version: Record<string, s
 }
 
 async function getVersionLang(version:string) {
-    if (await fs.exists(`./original/${version}.json`)) {
+    if (await exists(`./original/${version}.json`)) {
         return await readLangFromFile(`./original/${version}.json`, true);
     }
 
