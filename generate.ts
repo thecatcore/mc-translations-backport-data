@@ -161,6 +161,86 @@ while (current != "b1.0") {
     current = version;
 }
 
+const additionalDiffs: Record<string, string | string[]> = {
+    "23w13a": "af-2023-1",
+    "af-2023-1": "af-2023-2",
+
+    "1.18.2": "af-2022",
+
+    "1.18.1": "1.19_deep_dark_experimental_snapshot-1",
+
+    "1.17.1-pre1": "1.17.1-pre2",
+    "1.17.1-pre2": "1.17.1-pre3",
+    "1.17.1-pre3": "1.17.1-rc1",
+    "1.17.1-rc1": "1.17.1-rc2",
+    "1.17.1-rc2": "1.17.1",
+
+    "20w13b": "af-2020",
+
+    "19w13b-1653": "af-2019",
+
+    "1.9.2": "af-2016",
+
+    "1.8.8": "1.8.9",
+
+    "1.8.3": "af-2015",
+
+    "1.7.4": "1.7.5",
+    "1.7.5": "1.7.6-pre1",
+    "1.7.6-pre1": "1.7.6-pre2",
+    "1.7.6-pre2": "1.7.6",
+    "1.7.6": "1.7.7-101331",
+    "1.7.7-101331": "1.7.8",
+    "1.7.8": "1.7.9",
+    "1.7.9": "1.7.10-pre1",
+    "1.7.10-pre1": "1.7.10-pre2",
+    "1.7.10-pre2": "1.7.10-pre3",
+    "1.7.10-pre3": "1.7.10-pre4",
+    "1.7.10-pre4": "1.7.10",
+
+    "1.6.2-091847": "1.6.3-pre-171231",
+    "1.6.3-pre-171231": "1.6.4",
+
+    "1.5.1": ["af-2013-red", "1.5.2-pre-250903"],
+    "af-2013-red": "af-2013-purple",
+    "af-2013-purple": "af-2013-blue",
+    "1.5.2-pre-250903": "1.5.2",
+
+    "1.3.1": "1.3.2"
+}
+
+for (const ver in additionalDiffs) {
+    const val = additionalDiffs[ver];
+
+    let targets: string[] = <string[]>val
+
+    if (!Array.isArray(val)) {
+        targets = [val]
+    }
+
+    for (let index = 0; index < targets.length; index++) {
+        const targetVersion = targets[index];
+        console.log(`${ver} -> ${targetVersion}`)
+        
+        if (!(await exists(`./diff/${ver}#${targetVersion}.json`))) {
+            console.log("Generating diff json...")
+            const currentJson = await getVersionLang(ver);
+
+            const versionJson = await getVersionLang(targetVersion);
+
+            const diff = compareJsons(currentJson, versionJson);
+    
+            await Deno.writeFile(`./diff/${ver}#${targetVersion}.json`, encoder.encode(JSON.stringify(diff, undefined, 4)));
+    
+            console.log("Done")
+        } else {
+            console.log("Already Done")
+        }
+
+        versionFromVersion[targetVersion] = ver;
+    }
+}
+
 const diffInfoString = encoder.encode(JSON.stringify(versionFromVersion));
 await Deno.writeFile("./diff_info.json", diffInfoString, {create: true});
 
