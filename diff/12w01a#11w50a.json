@@ -1,8 +1,7 @@
 {
     "removed": [
         "generator.default",
-        "generator.flat",
-        "options.languageWarning"
+        "generator.flat"
     ],
     "changed": [
         "potion.moveSpeed.postfix",
