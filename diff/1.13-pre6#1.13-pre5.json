@@ -1,7 +1,6 @@
 {
     "removed": [
         "menu.working",
-        "menu.savingChunks",
         "menu.preparingSpawn",
         "multiplayer.message_not_delivered",
         "multiplayer.status.finished",
