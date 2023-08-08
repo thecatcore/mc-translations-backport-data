@@ -10,7 +10,6 @@
         "commands.setworldspawn.success"
     ],
     "changed": [
-        "options.languageWarning",
         "commands.scoreboard.objectives.add.wrongType"
     ],
     "added": [],
