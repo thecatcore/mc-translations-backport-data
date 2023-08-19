@@ -1,6 +1,5 @@
 {
     "removed": [
-        "container.chestDouble",
         "commands.publish.started",
         "commands.publish.failed"
     ],
