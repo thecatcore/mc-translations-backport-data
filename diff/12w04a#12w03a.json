@@ -2,15 +2,9 @@
     "removed": [
         "item.expBottle.name",
         "item.fireball.name",
-        "container.inventory",
-        "container.crafting",
-        "container.dispenser",
-        "container.furnace",
         "container.enchant",
         "container.creative",
         "container.brewing",
-        "container.chest",
-        "container.minecart",
         "entity.Ozelot.name",
         "entity.Cat.name"
     ],
