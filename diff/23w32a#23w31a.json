@@ -1,0 +1,9 @@
+{
+    "removed": [
+        "chat.tag.error",
+        "chat.validation_error"
+    ],
+    "changed": [],
+    "added": [],
+    "valueMoved": {}
+}
