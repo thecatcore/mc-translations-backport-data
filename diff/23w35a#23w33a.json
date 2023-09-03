@@ -1,0 +1,21 @@
+{
+    "removed": [
+        "connect.reconfiguring",
+        "mco.selectServer.create.subtitle"
+    ],
+    "changed": [
+        "commands.random.error.range_too_large",
+        "commands.random.error.range_too_small",
+        "gui.abuseReport.type.chat",
+        "gui.abuseReport.type.name",
+        "gui.abuseReport.type.skin",
+        "mco.selectServer.loading",
+        "options.accessibility.narrator_hotkey.tooltip",
+        "pack.dropRejected.message",
+        "selectWorld.loading_list",
+        "symlink_warning.title.pack",
+        "symlink_warning.title.world"
+    ],
+    "added": [],
+    "valueMoved": {}
+}
