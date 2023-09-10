@@ -1,0 +1,18 @@
+{
+    "removed": [
+        "narration.suggestion.usage.cycle.fixed",
+        "narration.suggestion.usage.cycle.hidable",
+        "narration.suggestion.usage.fill.fixed",
+        "narration.suggestion.usage.fill.hidable",
+        "options.accessibility",
+        "options.chat",
+        "options.fullscreen.entry",
+        "options.language.title"
+    ],
+    "changed": [
+        "options.accessibility.title",
+        "options.chat.title"
+    ],
+    "added": [],
+    "valueMoved": {}
+}
