@@ -1,0 +1,12 @@
+{
+    "removed": [
+        "commands.kick.owner.failed",
+        "gui.loadingMinecraft",
+        "mco.snapshotRealmsPopup.message",
+        "mco.snapshotRealmsPopup.title",
+        "mco.snapshotRealmsPopup.urlText"
+    ],
+    "changed": [],
+    "added": [],
+    "valueMoved": {}
+}
