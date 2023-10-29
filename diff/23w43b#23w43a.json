@@ -1,0 +1,9 @@
+{
+    "removed": [
+        "mco.notification.transferSubscription.buttonText",
+        "mco.notification.transferSubscription.message"
+    ],
+    "changed": [],
+    "added": [],
+    "valueMoved": {}
+}
