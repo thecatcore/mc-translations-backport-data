@@ -1,0 +1,12 @@
+{
+    "removed": [
+        "commands.debug.function.noReturnRun",
+        "subtitles.block.copper_bulb.turn_off",
+        "subtitles.block.copper_bulb.turn_on",
+        "subtitles.block.copper_trapdoor.close",
+        "subtitles.block.copper_trapdoor.open"
+    ],
+    "changed": [],
+    "added": [],
+    "valueMoved": {}
+}
