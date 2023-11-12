@@ -1,0 +1,30 @@
+{
+    "removed": [
+        "accessibility.onboarding.accessibility.button",
+        "block.minecraft.trial_spawner",
+        "entity.minecraft.breeze",
+        "entity.minecraft.wind_charge",
+        "item.minecraft.breeze_spawn_egg",
+        "item.minecraft.trial_key",
+        "subtitles.block.trial_spawner.ambient",
+        "subtitles.block.trial_spawner.close_shutter",
+        "subtitles.block.trial_spawner.detect_player",
+        "subtitles.block.trial_spawner.eject_item",
+        "subtitles.block.trial_spawner.open_shutter",
+        "subtitles.block.trial_spawner.spawn_mob",
+        "subtitles.entity.breeze.death",
+        "subtitles.entity.breeze.hurt",
+        "subtitles.entity.breeze.idle_air",
+        "subtitles.entity.breeze.idle_ground",
+        "subtitles.entity.breeze.inhale",
+        "subtitles.entity.breeze.jump",
+        "subtitles.entity.breeze.land",
+        "subtitles.entity.breeze.shoot",
+        "subtitles.entity.breeze.slide",
+        "subtitles.entity.generic.wind_burst",
+        "subtitles.entity.parrot.imitate.breeze"
+    ],
+    "changed": [],
+    "added": [],
+    "valueMoved": {}
+}
