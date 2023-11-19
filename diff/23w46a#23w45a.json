@@ -1,0 +1,24 @@
+{
+    "removed": [
+        "argument.style.invalid",
+        "commands.kick.singleplayer.failed",
+        "commands.scoreboard.objectives.modify.displayAutoUpdate.disable",
+        "commands.scoreboard.objectives.modify.displayAutoUpdate.enable",
+        "commands.scoreboard.objectives.modify.objectiveFormat.clear",
+        "commands.scoreboard.objectives.modify.objectiveFormat.set",
+        "commands.scoreboard.players.display.name.clear.success.multiple",
+        "commands.scoreboard.players.display.name.clear.success.single",
+        "commands.scoreboard.players.display.name.set.success.multiple",
+        "commands.scoreboard.players.display.name.set.success.single",
+        "commands.scoreboard.players.display.numberFormat.clear.success.multiple",
+        "commands.scoreboard.players.display.numberFormat.clear.success.single",
+        "commands.scoreboard.players.display.numberFormat.set.success.multiple",
+        "commands.scoreboard.players.display.numberFormat.set.success.single",
+        "options.accessibility.narrator_hotkey.mac.tooltip"
+    ],
+    "changed": [
+        "subtitles.entity.generic.wind_burst"
+    ],
+    "added": [],
+    "valueMoved": {}
+}
