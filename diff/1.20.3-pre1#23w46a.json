@@ -1,0 +1,11 @@
+{
+    "removed": [
+        "block.minecraft.short_grass",
+        "download.pack.progress.bytes",
+        "download.pack.progress.percent",
+        "download.pack.title"
+    ],
+    "changed": [],
+    "added": [],
+    "valueMoved": {}
+}
