@@ -1,0 +1,11 @@
+{
+    "removed": [
+        "commands.tick.status.lagging",
+        "download.pack.failed"
+    ],
+    "changed": [
+        "commands.tick.query.rate.sprinting"
+    ],
+    "added": [],
+    "valueMoved": {}
+}
