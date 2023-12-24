@@ -1,0 +1,43 @@
+{
+    "removed": [
+        "attribute.name.generic.block_interaction_range",
+        "attribute.name.generic.entity_interaction_range",
+        "attribute.name.generic.scale",
+        "attribute.name.generic.step_height",
+        "entity.minecraft.armadillo",
+        "item.minecraft.armadillo_scute",
+        "item.minecraft.armadillo_spawn_egg",
+        "item.minecraft.turtle_scute",
+        "item.minecraft.wolf_armor",
+        "subtitles.entity.armadillo.ambient",
+        "subtitles.entity.armadillo.brush",
+        "subtitles.entity.armadillo.death",
+        "subtitles.entity.armadillo.eat",
+        "subtitles.entity.armadillo.hurt",
+        "subtitles.entity.armadillo.land",
+        "subtitles.entity.armadillo.roll",
+        "subtitles.entity.armadillo.scute_drop",
+        "subtitles.entity.armadillo.unroll",
+        "subtitles.entity.breeze.charge",
+        "subtitles.entity.breeze.deflect",
+        "subtitles.entity.breeze.whirl",
+        "subtitles.item.armor.equip_wolf",
+        "subtitles.item.armor.unequip_wolf"
+    ],
+    "changed": [
+        "subtitles.block.respawn_anchor.ambient",
+        "subtitles.block.trial_spawner.spawn_mob",
+        "subtitles.entity.glow_item_frame.break",
+        "subtitles.entity.item_frame.break",
+        "subtitles.entity.leash_knot.break",
+        "subtitles.entity.painting.break",
+        "subtitles.entity.polar_bear.ambient_baby",
+        "subtitles.entity.turtle.death_baby",
+        "subtitles.entity.turtle.hurt_baby",
+        "subtitles.entity.turtle.shamble_baby"
+    ],
+    "added": [
+        "item.minecraft.scute"
+    ],
+    "valueMoved": {}
+}
