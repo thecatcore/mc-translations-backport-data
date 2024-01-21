@@ -1,0 +1,28 @@
+{
+    "removed": [
+        "attribute.name.player.block_interaction_range",
+        "attribute.name.player.entity_interaction_range",
+        "commands.setworldspawn.failure.not_overworld",
+        "connect.failed.transfer",
+        "connect.transferring",
+        "disconnect.transfer",
+        "enchantment.minecraft.sweeping_edge",
+        "gamerule.spawnChunkRadius",
+        "gamerule.spawnChunkRadius.description",
+        "gamerule.spawnRadius.description",
+        "multiplayer.disconnect.transfers_disabled"
+    ],
+    "changed": [
+        "argument.time.invalid_tick_count",
+        "argument.time.tick_count_too_low",
+        "commands.tick.sprint.stop.success",
+        "commands.tick.status.running",
+        "commands.tick.step.stop.success",
+        "subtitles.entity.armadillo.brush",
+        "subtitles.entity.armadillo.scute_drop",
+        "subtitles.item.armor.equip_wolf",
+        "subtitles.item.armor.unequip_wolf"
+    ],
+    "added": [],
+    "valueMoved": {}
+}
