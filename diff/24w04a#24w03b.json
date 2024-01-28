@@ -1,0 +1,27 @@
+{
+    "removed": [
+        "commands.transfer.error.no_players",
+        "commands.transfer.success.multiple",
+        "commands.transfer.success.single",
+        "mco.upload.entry.commands",
+        "optimizeWorld.stage.finished.chunks",
+        "optimizeWorld.stage.finished.entities",
+        "optimizeWorld.stage.finished.poi",
+        "optimizeWorld.stage.upgrading.chunks",
+        "optimizeWorld.stage.upgrading.entities",
+        "optimizeWorld.stage.upgrading.poi",
+        "selectWorld.allowCommands.new",
+        "selectWorld.commands",
+        "subtitles.entity.armadillo.hurt_reduced"
+    ],
+    "changed": [],
+    "added": [
+        "optimizeWorld.stage.finished",
+        "optimizeWorld.stage.upgrading"
+    ],
+    "valueMoved": {
+        "optimizeWorld.stage.upgrading.chunks": [
+            "optimizeWorld.stage.upgrading"
+        ]
+    }
+}
