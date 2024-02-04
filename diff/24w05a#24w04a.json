@@ -1,0 +1,19 @@
+{
+    "removed": [
+        "block.minecraft.vault",
+        "item.modifiers.body",
+        "optimizeWorld.stage.finished",
+        "optimizeWorld.stage.upgrading",
+        "subtitles.block.vault.activate",
+        "subtitles.block.vault.ambient",
+        "subtitles.block.vault.close_shutter",
+        "subtitles.block.vault.deactivate",
+        "subtitles.block.vault.eject_item",
+        "subtitles.block.vault.insert_item",
+        "subtitles.block.vault.insert_item_fail",
+        "subtitles.block.vault.open_shutter"
+    ],
+    "changed": [],
+    "added": [],
+    "valueMoved": {}
+}
