@@ -1,0 +1,30 @@
+{
+    "removed": [
+        "attribute.name.generic.fall_damage_multiplier",
+        "attribute.name.generic.gravity",
+        "attribute.name.generic.jump_strength",
+        "attribute.name.generic.safe_fall_distance",
+        "attribute.name.player.block_break_speed",
+        "entity.minecraft.breeze_wind_charge",
+        "item.minecraft.wind_charge",
+        "options.font",
+        "options.font.title",
+        "options.japaneseGlyphVariants",
+        "options.japaneseGlyphVariants.tooltip",
+        "subtitles.entity.armadillo.peek",
+        "subtitles.entity.armadillo.unroll_finish",
+        "subtitles.entity.armadillo.unroll_start",
+        "subtitles.entity.breeze.wind_burst",
+        "subtitles.entity.wind_charge.throw",
+        "subtitles.entity.wind_charge.wind_burst"
+    ],
+    "changed": [],
+    "added": [
+        "subtitles.entity.armadillo.unroll"
+    ],
+    "valueMoved": {
+        "subtitles.entity.armadillo.unroll_finish": [
+            "subtitles.entity.armadillo.unroll"
+        ]
+    }
+}
