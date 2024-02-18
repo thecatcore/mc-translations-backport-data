@@ -1,0 +1,15 @@
+{
+    "removed": [
+        "entity.minecraft.bogged",
+        "item.minecraft.bogged_spawn_egg",
+        "subtitles.entity.bogged.ambient",
+        "subtitles.entity.bogged.death",
+        "subtitles.entity.bogged.hurt",
+        "subtitles.entity.parrot.imitate.bogged"
+    ],
+    "changed": [
+        "options.japaneseGlyphVariants.tooltip"
+    ],
+    "added": [],
+    "valueMoved": {}
+}
