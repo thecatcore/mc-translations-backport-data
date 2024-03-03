@@ -1,0 +1,33 @@
+{
+    "removed": [
+        "arguments.item.component.expected",
+        "arguments.item.component.malformed",
+        "arguments.item.component.unknown",
+        "chunk.toast.checkLog",
+        "chunk.toast.loadFailure",
+        "chunk.toast.lowDiskSpace",
+        "chunk.toast.lowDiskSpace.description",
+        "chunk.toast.saveFailure",
+        "item.canUse.unknown",
+        "item.components",
+        "mco.backup.narration",
+        "mco.client.outdated.stable.version",
+        "mco.client.unsupported.snapshot.version",
+        "mco.invited.player.narration",
+        "options.accessibility.menu_background_blurriness",
+        "options.accessibility.menu_background_blurriness.tooltip",
+        "selectWorld.warning.lowDiskSpace.description",
+        "selectWorld.warning.lowDiskSpace.title",
+        "subtitles.block.candle.extinguish",
+        "subtitles.block.wet_sponge.dries",
+        "subtitles.entity.donkey.jump",
+        "subtitles.entity.mule.jump",
+        "subtitles.item.wolf_armor.break",
+        "subtitles.item.wolf_armor.crack",
+        "subtitles.item.wolf_armor.damage",
+        "subtitles.item.wolf_armor.repair"
+    ],
+    "changed": [],
+    "added": [],
+    "valueMoved": {}
+}
