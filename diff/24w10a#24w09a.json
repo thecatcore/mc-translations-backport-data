@@ -1,0 +1,9 @@
+{
+    "removed": [
+        "arguments.item.component.repeated",
+        "slot.only_single_allowed"
+    ],
+    "changed": [],
+    "added": [],
+    "valueMoved": {}
+}
