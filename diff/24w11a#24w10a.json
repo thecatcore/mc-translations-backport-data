@@ -1,0 +1,27 @@
+{
+    "removed": [
+        "block.minecraft.heavy_core",
+        "commands.datapack.disable.failed.feature",
+        "item.minecraft.bolt_armor_trim_smithing_template",
+        "item.minecraft.breeze_rod",
+        "item.minecraft.flow_armor_trim_smithing_template",
+        "item.minecraft.flow_banner_pattern",
+        "item.minecraft.flow_banner_pattern.desc",
+        "item.minecraft.flow_pottery_sherd",
+        "item.minecraft.guster_banner_pattern",
+        "item.minecraft.guster_banner_pattern.desc",
+        "item.minecraft.guster_pottery_sherd",
+        "item.minecraft.mace",
+        "item.minecraft.scrape_pottery_sherd",
+        "subtitles.item.mace.smash_air",
+        "subtitles.item.mace.smash_ground",
+        "trim_pattern.minecraft.bolt",
+        "trim_pattern.minecraft.flow"
+    ],
+    "changed": [
+        "mco.configure.world.invites.normal.tooltip",
+        "options.accessibility.menu_background_blurriness"
+    ],
+    "added": [],
+    "valueMoved": {}
+}
