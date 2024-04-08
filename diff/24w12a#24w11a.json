@@ -1,0 +1,26 @@
+{
+    "removed": [
+        "advancements.adventure.blowback.description",
+        "advancements.adventure.blowback.title",
+        "advancements.adventure.crafters_crafting_crafters.description",
+        "advancements.adventure.crafters_crafting_crafters.title",
+        "advancements.adventure.lighten_up.description",
+        "advancements.adventure.lighten_up.title",
+        "advancements.adventure.minecraft_trials_edition.description",
+        "advancements.adventure.minecraft_trials_edition.title",
+        "advancements.adventure.overoverkill.description",
+        "advancements.adventure.overoverkill.title",
+        "advancements.adventure.under_lock_and_key.description",
+        "advancements.adventure.under_lock_and_key.title",
+        "advancements.adventure.who_needs_rockets.description",
+        "advancements.adventure.who_needs_rockets.title",
+        "argument.resource_or_id.failed_to_parse",
+        "argument.resource_or_id.invalid",
+        "arguments.item.predicate.malformed",
+        "arguments.item.predicate.unknown",
+        "filled_map.trial_chambers"
+    ],
+    "changed": [],
+    "added": [],
+    "valueMoved": {}
+}
