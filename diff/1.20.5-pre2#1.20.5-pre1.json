@@ -1,0 +1,22 @@
+{
+    "removed": [
+        "argument.message.too_long",
+        "disconnect.packetError"
+    ],
+    "changed": [
+        "advancements.adventure.brush_armadillo.title",
+        "advancements.husbandry.remove_wolf_armor.title",
+        "arguments.item.predicate.unknown",
+        "mco.configure.world.buttons.switchminigame",
+        "mco.minigame.world.changeButton",
+        "mco.minigame.world.restore",
+        "mco.minigame.world.selected",
+        "mco.minigame.world.slot.screen.title",
+        "mco.minigame.world.starting.screen.title",
+        "mco.minigame.world.stopButton",
+        "mco.minigame.world.switch.title",
+        "mco.minigame.world.title"
+    ],
+    "added": [],
+    "valueMoved": {}
+}
