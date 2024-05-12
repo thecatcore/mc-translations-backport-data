@@ -1,0 +1,10 @@
+{
+    "removed": [],
+    "changed": [
+        "subtitles.block.sculk_sensor.clicking",
+        "subtitles.block.trial_spawner.ambient_charged",
+        "subtitles.block.trial_spawner.ambient_ominous"
+    ],
+    "added": [],
+    "valueMoved": {}
+}
