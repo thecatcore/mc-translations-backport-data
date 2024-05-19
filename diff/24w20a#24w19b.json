@@ -1,0 +1,10 @@
+{
+    "removed": [
+        "item.modifiers.any",
+        "item.modifiers.armor",
+        "item.modifiers.hand"
+    ],
+    "changed": [],
+    "added": [],
+    "valueMoved": {}
+}
