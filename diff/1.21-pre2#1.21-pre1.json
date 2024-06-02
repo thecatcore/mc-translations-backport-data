@@ -1,0 +1,9 @@
+{
+    "removed": [
+        "gui.abuseReport.attestation",
+        "gui.abuseReport.send.not_attested"
+    ],
+    "changed": [],
+    "added": [],
+    "valueMoved": {}
+}

@@ -1,0 +1,40 @@
+{
+    "removed": [
+        "known_server_link.announcements",
+        "known_server_link.community",
+        "known_server_link.community_guidelines",
+        "known_server_link.feedback",
+        "known_server_link.forums",
+        "known_server_link.news",
+        "known_server_link.status",
+        "known_server_link.support",
+        "known_server_link.website"
+    ],
+    "changed": [
+        "chat.disabled.profile",
+        "chat.disabled.profile.moreInfo",
+        "download.pack.failed",
+        "gamerule.doVinesSpread.description",
+        "gamerule.enderPearlsVanishOnDeath",
+        "gamerule.enderPearlsVanishOnDeath.description",
+        "gamerule.entitiesWithPassengersCanUsePortals.description",
+        "key.swapOffhand",
+        "mco.compatibility.downgrade.description",
+        "mco.compatibility.unverifiable.message",
+        "mco.notification.visitUrl.buttonText.default",
+        "options.accessibility.high_contrast.error.tooltip",
+        "options.accessibility.high_contrast.tooltip",
+        "options.accessibility.menu_background_blurriness.tooltip",
+        "options.accessibility.narrator_hotkey.mac.tooltip",
+        "options.accessibility.narrator_hotkey.tooltip",
+        "options.directionalAudio.off.tooltip",
+        "options.japaneseGlyphVariants.tooltip",
+        "options.modelPart.left_pants_leg",
+        "options.modelPart.right_pants_leg",
+        "selectWorld.experimental.details.title",
+        "subtitles.block.vault.insert_item_fail",
+        "subtitles.block.vault.reject_rewarded_player"
+    ],
+    "added": [],
+    "valueMoved": {}
+}
