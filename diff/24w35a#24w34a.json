@@ -1,0 +1,13 @@
+{
+    "removed": [
+        "commands.drop.no_loot_table.block",
+        "container.beehive.bees",
+        "container.beehive.honey",
+        "resourcePack.runtime_failure"
+    ],
+    "changed": [
+        "advancements.husbandry.silk_touch_nest.description"
+    ],
+    "added": [],
+    "valueMoved": {}
+}
