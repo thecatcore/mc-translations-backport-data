@@ -1,0 +1,11 @@
+{
+    "removed": [],
+    "changed": [
+        "container.beehive.bees",
+        "container.beehive.honey",
+        "gamerule.minecartMaxSpeed.description",
+        "options.rotateWithMinecart.tooltip"
+    ],
+    "added": [],
+    "valueMoved": {}
+}
