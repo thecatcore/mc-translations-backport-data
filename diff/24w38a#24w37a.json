@@ -1,0 +1,27 @@
+{
+    "removed": [
+        "item.minecraft.black_bundle",
+        "item.minecraft.blue_bundle",
+        "item.minecraft.brown_bundle",
+        "item.minecraft.cyan_bundle",
+        "item.minecraft.gray_bundle",
+        "item.minecraft.green_bundle",
+        "item.minecraft.light_blue_bundle",
+        "item.minecraft.light_gray_bundle",
+        "item.minecraft.lime_bundle",
+        "item.minecraft.magenta_bundle",
+        "item.minecraft.orange_bundle",
+        "item.minecraft.pink_bundle",
+        "item.minecraft.purple_bundle",
+        "item.minecraft.red_bundle",
+        "item.minecraft.white_bundle",
+        "item.minecraft.yellow_bundle",
+        "mco.create.world.failed",
+        "mco.errorMessage.initialize.failed",
+        "mco.upload.failed.too_big.description",
+        "mco.upload.failed.too_big.title"
+    ],
+    "changed": [],
+    "added": [],
+    "valueMoved": {}
+}
